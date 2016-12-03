@@ -22,50 +22,10 @@ The \msrcode{is} operation has the following properties:
 
 
 
-	% ------------------------------------------
-	% MCL Listing
-	% ------------------------------------------
-	\vspace{1cm}
-	The listing~\ref{OM-etHumanKind-is-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{is}.},label=OM-etHumanKind-is-MCL-LST]
-
-	
-	
-	/* Post Functional:*/ 
-	postF{let TheResult: ptBoolean in
-	        ( if
-	          ( self = witness
-	            or self = victim
-	            or self = anonymous
-	          )
-	          then (TheResult = true)
-	          else (TheResult = false)
-	          endif
-	          result = TheResult
-	        )}
-	
-	
-	\end{lstlisting}
-	\normalsize 
 	
 	
 	
 	
-	% ------------------------------------------
-	% PROLOG Listing
-	% ------------------------------------------
-	
-	\vspace{1cm}
-	The listing~\ref{OM-etHumanKind-is-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	
-	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{is}.},label=OM-etHumanKind-is-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesClasses/PrimaryTypesDatatypes-etHumanKind-is.pl}
-	\normalsize
 
 
 

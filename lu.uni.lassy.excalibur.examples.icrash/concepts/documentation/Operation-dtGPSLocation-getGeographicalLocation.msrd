@@ -1,0 +1,23 @@
+/*
+@author 809279
+@date Mon Nov 28 11:39:28 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.datatypes.dtGPSLocation.getGeographicalLocation
+//parameters
+@parameter
+icrash.concepts.primarytypes.datatypes.dtGPSLocation.getGeographicalLocation.aDtLatitude
+"the given latitude of the crisis which is going to be assigned to a geographical location"
+@parameter
+icrash.concepts.primarytypes.datatypes.dtGPSLocation.getGeographicalLocation.aDtLongitude
+"the given longitude of the crisis which is going to be assigned to a geographical location"
+@endParameters
+
+@description 
+"method that returns geographical location of crisis according to its longitude and latitude"
+//postFunctional descriptions
+@postF 
+"according to distance between the center of the current city(Saint-Petersburg) and coordinate which is measured with the help of latitude and longitude the method returns geographical location"
+@endPostF

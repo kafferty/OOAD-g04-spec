@@ -11,6 +11,8 @@ icrash.concepts.primarytypes.classes.ctAlert.init
 "used to initialize the instant field"
 @parameter icrash.concepts.primarytypes.classes.ctAlert.init.Acomment
 "used to initialize the comment field"
+@parameter icrash.concepts.primarytypes.classes.ctAlert.init.AcrisisType
+"used to initialize the type of the crisis"
 @endParameters
 @description
 " used to initialize the current object as a new instance of the ctAlert type."

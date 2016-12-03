@@ -1,0 +1,35 @@
+/*
+@author 809279
+@date Tue Nov 15 06:20:52 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeEditCoordinator hidden
+@description
+"sent to edit an existing coordinator in the system's post state and environment's post state."
+
+@parameter icrash.usecases.subfunctions.oeEditCoordinator.AdtCoordinatorID
+ "used for ctCoordinator instance retrieval"
+@parameter icrash.usecases.subfunctions.oeEditCoordinator.AetCrisisType 
+"the parameter to which current crisis type of coordinator will be changed"
+
+@parameter icrash.usecases.subfunctions.oeEditCoordinator.AetGeoraphicalLocation 
+"the parameter to which current geographical location of coordinator will be changed"
+
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

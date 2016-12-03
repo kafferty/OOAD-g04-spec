@@ -1,0 +1,50 @@
+/*
+@author 809279
+@date Tue Nov 15 05:32:39 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actAdministrator.outactAdministrator.oeEditCoordinator
+//parameters
+@parameter
+icrash.environment.actAdministrator.outactAdministrator.oeEditCoordinator.AdtCoordinatorID
+"used for ctCoordinator instance retrieval"
+@parameter
+icrash.environment.actAdministrator.outactAdministrator.oeEditCoordinator.AetGeoraphicalLocation
+"the parameter to which current geographical location of coordinator will be changed"
+@parameter
+icrash.environment.actAdministrator.outactAdministrator.oeEditCoordinator.AetCrisisType
+"the parameter to which current crisis type of coordinator will be changed"
+@endParameters
+
+@description 
+"sent to edit an existing coordinator in the system's post state and environment's post state."
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctAdministrator instance is considered logged)"
+@preP
+"the coordinator with the given ID is not logged in. It means that vpIsLogged of the coordinator is false"
+@endPreP
+
+//preFunctional descriptions
+@preF
+" it is supposed that there exist one ctCoordinator instance with the same \msrcode{id} attribute than the one the administrator wants to edit."
+@endPreF
+//postFunctional descriptions
+@postF 
+" the ctCoordinator class instance having the required id now has updated geographical location and crisis type ."
+@postF
+"the administrator actor is informed about the satisfaction of its request."
+
+@endPostF
+
+//postProtocol descriptions
+@postP 
+" none "
+@endPostP
+
+//example
+@example" "

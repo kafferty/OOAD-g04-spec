@@ -1,0 +1,31 @@
+/*
+@author 809279
+@date Tue Nov 15 14:40:21 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSetCrisisType hidden
+@description 
+"sent to define the gravity type of a specific crisis."
+@parameter icrash.usecases.subfunctions.oeSetCrisisType.AdtCrisisID 
+"the identification information used to determine the crisis"
+@parameter icrash.usecases.subfunctions.oeSetCrisisType.AetCrisisStatus 
+"the new type value"
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"
+

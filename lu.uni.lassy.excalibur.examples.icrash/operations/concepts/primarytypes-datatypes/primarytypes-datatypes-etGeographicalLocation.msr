@@ -1,0 +1,31 @@
+/*
+* @author 809279
+* @date Tue Nov 15 04:54:56 MSK 2016
+*/
+
+package icrash.operations.concepts.primarytypes.datatypes.etGeographicalLocation {
+
+import lu.uni.lassy.messir.libraries.primitives
+
+	Operation Model {
+			operation: icrash.concepts.primarytypes.datatypes.etGeographicalLocation.is():ptBoolean{
+    postF{ 
+        let TheResult: ptBoolean in
+        ( if
+          ( self = central
+            or self = south_eastern
+            or self = south_western
+            or self = north_eastern
+            or self = north_western
+          )
+          then (TheResult = true)
+          else (TheResult = false)
+          endif
+          result = TheResult
+        )
+        }
+}
+	}
+
+
+}

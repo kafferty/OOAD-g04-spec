@@ -13,6 +13,9 @@ The \msrcode{init} operation has the following properties:
 	\addnumbereddoublerow{}{Aid: dtCoordinatorID}{used to initialize the id field} 
 	\addnumbereddoublerow{}{Alogin: dtLogin}{used to initialize the login field} 
 	\addnumbereddoublerow{}{Apwd: dtPassword}{used to initialize the password field} 
+	\addnumbereddoublerow{}{AphoneNumber: dtPhoneNumber}{used to initialize the phone number field} 
+	\addnumbereddoublerow{}{AgeographicalLocation: etGeographicalLocation}{used to initialize the geographical location field} 
+	\addnumbereddoublerow{}{AcrisisType: etCrisisType}{used to initialize the crisis sype field} 
 
 	\addrowheading{Return type}
 	\addsinglerow{ptBoolean}
@@ -27,53 +30,10 @@ The \msrcode{init} operation has the following properties:
 
 
 
-	% ------------------------------------------
-	% MCL Listing
-	% ------------------------------------------
-	\vspace{1cm}
-	The listing~\ref{OM-ctCoordinator-init-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{init}.},label=OM-ctCoordinator-init-MCL-LST]
-
-	
-	
-	/* Post Functional:*/ 
-	postF{if
-	(
-	/* Post F01 */
-	let Self:ctCoordinator in
-	Self.id = Aid
-	and Self.login = Alogin
-	and Self.pwd = Apwd
-	and Self.vpIsLogged = false
-	/* Post F02 */
-	and (Self.oclIsNew and self = Self)
-	)
-	then (result = true)
-	else (result = false)
-	endif}
-	
-	
-	\end{lstlisting}
-	\normalsize 
 	
 	
 	
 	
-	% ------------------------------------------
-	% PROLOG Listing
-	% ------------------------------------------
-	
-	\vspace{1cm}
-	The listing~\ref{OM-ctCoordinator-init-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	
-	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{init}.},label=OM-ctCoordinator-init-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesClasses/PrimaryTypesClasses-ctCoordinator-init.pl}
-	\normalsize
 
 
 

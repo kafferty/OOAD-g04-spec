@@ -16,56 +16,17 @@ The \msrcode{is} operation has the following properties:
 		
 
 	\addrowheading{Post-Condition (functional)}
-	\addnumberedsinglerow{PostF}{ if the length of the value attribute of a dtCrisisID is a ptInteger greater than zero 
-	and lower or equal to 10 than the operation returns the ptBoolean true, else the ptBoolean false.}
+	\addnumberedsinglerow{PostF}{if the length of the value attribute of a dtAlertID is a ptInteger greater than zero 
+	and lower or equal to 20 then the operation returns the ptBoolean true, else the ptBoolean false. }
 
 	\end{operationmodel}
 
 
 
-	% ------------------------------------------
-	% MCL Listing
-	% ------------------------------------------
-	\vspace{1cm}
-	The listing~\ref{OM-dtCrisisID-is-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{is}.},label=OM-dtCrisisID-is-MCL-LST]
-
-	
-	
-	/* Post Functional:*/ 
-	postF{let TheResult: ptBoolean in
-	        ( if
-	          ( AdtValue.value.length().gt(0)
-	            and AdtValue.value.length().leq(10)
-	          )
-	          then (TheResult = true)
-	          else (TheResult = false)
-	          endif
-	          result = TheResult
-	        )}
-	
-	
-	\end{lstlisting}
-	\normalsize 
 	
 	
 	
 	
-	% ------------------------------------------
-	% PROLOG Listing
-	% ------------------------------------------
-	
-	\vspace{1cm}
-	The listing~\ref{OM-dtCrisisID-is-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	
-	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{is}.},label=OM-dtCrisisID-is-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTypesDatatypes-dtCrisisID-is.pl}
-	\normalsize
 
 
 

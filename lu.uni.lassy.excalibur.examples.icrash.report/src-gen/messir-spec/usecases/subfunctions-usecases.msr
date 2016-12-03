@@ -8,13 +8,14 @@ import icrash.concepts.secondarytypes.datatypes
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.string
 
 import icrash.environment
 
   Use Case Model {
     
 //----------------------------------------------------
-  use case system subfunction oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword){
+  use case system subfunction oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword, AdtPhoneNumber:dtPhoneNumber,AetGeographicalLocation: etGeographicalLocation, AetCrisisType:etCrisisType){
     actor actAdministrator[primary,active]
     returned messages {
       ieCoordinatorAdded() returned to actAdministrator
@@ -27,7 +28,8 @@ import icrash.environment
                                    AdtTime:dtTime,
                                    AdtPhoneNumber:dtPhoneNumber,
                                    AdtGPSLocation:dtGPSLocation,
-                                   AdtComment:dtComment) {
+                                   AdtComment:dtComment,
+                                   AetCrisisType: etCrisisType) {
     actor actComCompany[primary,active]
     returned messages {
       ieSmsSend(AdtPhoneNumber,AdtSMS) returned to actComCompany
@@ -56,6 +58,13 @@ import icrash.environment
     actor actAdministrator[primary,active]
     returned messages {
       ieCoordinatorDeleted() returned to actAdministrator
+    }
+  }   
+
+ use case system subfunction oeEditCoordinator(AdtCoordinatorID:dtCoordinatorID, AetCrisisType:etCrisisType, AetGeoraphicalLocation: etGeographicalLocation) {
+    actor actAdministrator[primary,active]
+    returned messages {
+      ieCoordinatorEdited() returned to actAdministrator
     }
   }   
 //----------------------------------------------------
@@ -100,6 +109,14 @@ import icrash.environment
       ieMessage(AMessage) returned to actAuthenticated
     }
   }
+  
+   use case system subfunction oeSMS(AdtString: dtString) {
+    actor actAuthenticated[primary,active]
+    returned messages {
+      ieMessage(AMessage) returned to actAuthenticated
+   	}
+  }
+  
 //----------------------------------------------------
   use case system subfunction oeReportOnCrisis(AdtCrisisID:dtCrisisID,AdtComment:dtComment) {
     actor actCoordinator[primary,active]
@@ -113,6 +130,13 @@ import icrash.environment
   }    
 //----------------------------------------------------
   use case system subfunction oeSetCrisisStatus(AdtCrisisID:dtCrisisID ,AetCrisisStatus:etCrisisStatus) {
+    actor actCoordinator[primary,active]
+    returned messages {
+      ieMessage(AMessage) returned to actCoordinator
+    }
+  }
+  
+   use case system subfunction oeSetCrisisType(AdtCrisisID:dtCrisisID ,AetCrisisStatus:etCrisisStatus) {
     actor actCoordinator[primary,active]
     returned messages {
       ieMessage(AMessage) returned to actCoordinator

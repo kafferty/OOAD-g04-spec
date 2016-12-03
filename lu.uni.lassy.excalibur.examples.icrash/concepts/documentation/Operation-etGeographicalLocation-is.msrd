@@ -1,0 +1,16 @@
+/*
+@author 809279
+@date Tue Nov 15 05:32:34 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.datatypes.etGeographicalLocation.is
+@description 
+"used to determine which litteral belongs to the enumeration."
+//postFunctional descriptions
+@postF 
+"true iff the value is equal to one of the following values: \msrcode{central, south_western, north_western, south_eastern, north_eastern}."
+@endPostF
+//example
+@example" "

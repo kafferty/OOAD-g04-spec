@@ -1,0 +1,12 @@
+/*
+@author 809279
+@date Tue Nov 15 05:32:21 MSK 2016
+*/
+
+
+@@Primary Type Enumeration icrash.concepts.primarytypes.datatypes.etGeographicalLocation
+@description "this type is used to indicate the different types of geographical locations."
+@operation
+icrash.concepts.primarytypes.datatypes.etGeographicalLocation.is
+"used to determine which litteral belongs to the enumeration."
+@endOperations

@@ -14,5 +14,7 @@
 "sent to request authorization to request access secured system operations."
 @outputEvent icrash.environment.actAuthenticated.outactAuthenticated.oeLogout
 "sent to end the secured access to specific system operations."
+@outputEvent icrash.environment.actAuthenticated.outactAuthenticated.oeSMS
+"sent to request authorization to request access secured system operations."
 
 @endOutputEvents

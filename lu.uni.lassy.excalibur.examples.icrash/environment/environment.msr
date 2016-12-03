@@ -6,6 +6,7 @@ import icrash.concepts.secondarytypes.datatypes
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.string
 
 	Environment Model { 
 
@@ -32,21 +33,22 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation oeAddCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ,
 											AdtLogin:dtLogin , 
-											AdtPassword:dtPassword ):ptBoolean
-				// add more fields to oeAddCoordinator: geographical location, crisis type; 						
+											AdtPassword:dtPassword,
+											AdtPhoneNumber:dtPhoneNumber,
+											AetGeoraphicalLocation:etGeographicalLocation,
+											AetCrisisType:etCrisisType):ptBoolean						
 				operation oeDeleteCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ):ptBoolean
-				// operation oeReassignCoordinator (AdtCoordinatorID: dtCoordinatorID, AdtCrisisID: dtCrisisID):ptBoolean
-				// operation oeEditCoordinator (AdtCoordinatorID: dtCoordinatorID, AdtCrisisType: etCrisisType, 
-												//AdtGeoraphicalLocation: etGeoraphicalLocation):ptBoolean
+			 	operation oeEditCoordinator(AdtCoordinatorID: dtCoordinatorID, 
+			 								AetGeoraphicalLocation:etGeographicalLocation, 
+			 								AetCrisisType: etCrisisType):ptBoolean
 			}
 			
 			input interface inactAdministrator{
 				
 				operation ieCoordinatorAdded():ptBoolean
 				operation ieCoordinatorDeleted():ptBoolean
-				// operation ieCoordinatorReassigned(): ptBoolean
-				// operation ieCoordinatorEdited(): ptBoolean
+				operation ieCoordinatorEdited(): ptBoolean
 	 		}
 		}
 		
@@ -63,10 +65,6 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation oeGetAlertsSet(AetAlertStatus:etAlertStatus ):ptBoolean
 				operation oeGetCrisisSet(AetCrisisStatus:etCrisisStatus ):ptBoolean
 				operation oeSetCrisisHandler(AdtCrisisID:dtCrisisID ):ptBoolean
-				//operation oeChangeCrisisType(
-               	//                          AdtCrisisID:dtCrisisID ,
-               	//                        	AetCrisisType:etCrisisType
-                //                       	):ptBoolean
 				operation oeReportOnCrisis(
 											AdtCrisisID:dtCrisisID ,
 											AdtComment:dtComment 
@@ -99,10 +97,11 @@ import lu.uni.lassy.messir.libraries.calendar
 										AdtTime:dtTime , 
 										AdtPhoneNumber:dtPhoneNumber ,
 										AdtGPSLocation:dtGPSLocation , 
-										AdtComment:dtComment 
+										AdtComment:dtComment, 
+										AetCrisisType:etCrisisType
 										):ptBoolean
 			}
-			
+			//oeSendSms
 			input interface inactComCompany{
 				operation ieSmsSend(AdtPhoneNumber:dtPhoneNumber , 
 														AdtSMS:dtSMS 
@@ -116,7 +115,7 @@ import lu.uni.lassy.messir.libraries.calendar
 
 			output interface outactAuthenticated{
 				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean
-				//oeSMS (AdtSMS: dtSMS): ptBoolean
+				operation oeSMS (AdtString: dtString): ptBoolean
 				operation oeLogout():ptBoolean
 			}
 			

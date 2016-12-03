@@ -28,6 +28,7 @@ the actAdministrator's goal is to follow an identification procedure to be allow
 \addnumberedsinglerow{}{\msrucname{ugSecurelyUseSystem [1..*]}}
 \addnumberedsinglerow{}{\msrucname{oeAddCoordinator [1..*]}}
 \addnumberedsinglerow{}{\msrucname{oeDeleteCoordinator [0..*]}}
+\addnumberedsinglerow{}{\msrucname{oeEditCoordinator [0..*]}}
 
 \addrowheading{Protocol condition(s)}
 \addnumberedsinglerow{}{
@@ -48,11 +49,12 @@ modifications have been made to the system and its environment concerning existi
 \addalphanumberedsinglerow{}{the actor \msrcode{actAdministrator} executes the \msrucname{ugSecurelyUseSystem} use case}
 \addalphanumberedsinglerow{}{the actor \msrcode{actAdministrator} executes the \msrucname{oeAddCoordinator} use case}
 \addalphanumberedsinglerow{}{the actor \msrcode{actAdministrator} executes the \msrucname{oeDeleteCoordinator} use case}
+\addalphanumberedsinglerow{}{the actor \msrcode{actAdministrator} executes the \msrucname{oeEditCoordinator} use case}
 \addrowheading{Steps Ordering Constraints}
-\addnumberedsinglerow{}{steps (a) (b) and (c) executions are interleaved 
+\addnumberedsinglerow{}{steps (a) (b) (c) and (d) executions are interleaved 
           (steps (b) and (c) have their protocol constrained 
            by steps of (a)).}
-\addnumberedsinglerow{}{steps (a) (b) and (c) can be executed multiple times.}
+\addnumberedsinglerow{}{steps (a) (b) (c) and (d) can be executed multiple times.}
 
 
 \end{usecase} 

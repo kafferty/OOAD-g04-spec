@@ -1,0 +1,30 @@
+/*
+@author 809279
+@date Tue Nov 15 14:39:15 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSMS hidden
+@description
+"sent to request authorization to request access secured system operations."
+
+@parameter icrash.usecases.subfunctions.oeSMS.AdtString 
+"string which contains the code which will be compared with the one generated for authenticated user"
+
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

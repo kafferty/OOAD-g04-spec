@@ -7,7 +7,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeSetCrisisType
 "the new type value"
 @endParameters
 @description
-"sent to define the gravity type of a specific crisis."
+"sent to define the gravity type of a specific crisis and alert which is associated with this crisis."
 
 //preProtocol descriptions
 @preP
@@ -23,7 +23,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeSetCrisisType
 
 //postFunctional descriptions
 @postF 
-"the crisis type attribute of the crisis instance having the given id is replaced by the given one and the requesting actor is notified of this update."
+"the crisis type attribute of the crisis  instance having the given id is replaced by the given one. the crisis type attribute of the alert insanse that is associated with current crisis is replaced by the given one. the requesting actor is notified of this update."
 @endPostF
 
 //postProtocol descriptions

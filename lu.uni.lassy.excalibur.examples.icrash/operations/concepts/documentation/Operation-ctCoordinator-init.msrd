@@ -7,6 +7,12 @@ icrash.concepts.primarytypes.classes.ctCoordinator.init
 "used to initialize the login field"
 @parameter icrash.concepts.primarytypes.classes.ctCoordinator.init.Apwd
 "used to initialize the password field"
+@parameter icrash.concepts.primarytypes.classes.ctCoordinator.init.AphoneNumber
+"used to initialize the phone number field"
+@parameter icrash.concepts.primarytypes.classes.ctCoordinator.init.AgeographicalLocation
+"used to initialize the geographical location field"
+@parameter icrash.concepts.primarytypes.classes.ctCoordinator.init.AcrisisType
+"used to initialize the crisis sype field"
 @endParameters
 @description
 "used to initialize the current object as a new instance of the ctCoordinator type."

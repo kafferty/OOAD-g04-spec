@@ -1,0 +1,26 @@
+/*
+* @author 809279
+* @date Tue Nov 15 03:56:36 MSK 2016
+*/
+
+package icrash.operations.environment.actAdministrator.oeEditCoordinator {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.calendar
+
+import icrash.environment
+
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+
+	Operation Model {
+	operation: actAdministrator.outactAdministrator.oeEditCoordinator(AdtCoordinatorID: dtCoordinatorID, 
+			 								AetGeoraphicalLocation:etGeographicalLocation, 
+			 								AetCrisisType: etCrisisType):ptBoolean
+{}
+}
+
+
+}

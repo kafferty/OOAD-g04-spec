@@ -21,6 +21,10 @@ import lu.uni.lassy.messir.libraries.calendar
 			datatype dtPassword extends dtString {
 				operation is():ptBoolean
 			}
+			datatype dtCode{
+				attribute generatedCode:dtString
+				operation is():ptBoolean
+			}
 			datatype dtCoordinatorID extends dtString {
 				operation is():ptBoolean
 			}
@@ -41,6 +45,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute longitude: dtLongitude
 				operation is():ptBoolean			
 				operation isNearTo(AGPSLocation:dtGPSLocation ):ptBoolean
+				operation getGeographicalLocation(aDtLatitude:dtLatitude, aDtLongitude: dtLongitude):etGeographicalLocation
 			}
 			
 			enum etCrisisStatus {
@@ -52,14 +57,13 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation is():ptBoolean
 			}
 			enum etCrisisType {
-				constants["small", "medium", "huge"]
-				//constants["critical", "low","high","medium"]
+				constants["critical", "low","high","medium"]
 				operation is():ptBoolean
 			}
-			//enum etGeographicalLocation {
-			// 	constants["central", "southern", "western", "eastern", "northern"]
-			//	operation is():ptBoolean
-			//	}
+			enum etGeographicalLocation {
+			 	constants["central", "south_eastern", "north_eastern", "south_western", "north_western"]
+				operation is():ptBoolean
+			}
 			enum etHumanKind {
 				constants["witness", "victim", "anonymous"]
 				operation is():ptBoolean

@@ -61,7 +61,7 @@ import lu.uni.lassy.messir.libraries.calendar
 										Acomment:dtComment ):ptBoolean
 										
 				operation handlingDelayPassed():ptBoolean
-        operation maxHandlingDelayPassed():ptBoolean
+        		operation maxHandlingDelayPassed():ptBoolean
 				operation isSentToCoordinator(AactCoordinator:actCoordinator ):ptBoolean
 				operation isAllocatedIfPossible():ptBoolean
 			}
@@ -85,11 +85,14 @@ import lu.uni.lassy.messir.libraries.calendar
 
 				attribute login:dtLogin
 				attribute pwd: dtPassword
+				attribute phoneNumber:dtPhoneNumber
 				attribute vpIsLogged:ptBoolean
+				attribute vpIsLoggedStep1:ptBoolean
 				
 				operation init(
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword,
+										AphoneNumber:dtPhoneNumber ):ptBoolean
 			}
 			
 			class ctCoordinator 
@@ -98,11 +101,16 @@ import lu.uni.lassy.messir.libraries.calendar
 					extends ctAuthenticated{
 			
 				attribute id:dtCoordinatorID
+				attribute geographicalLocation:etGeographicalLocation
+				attribute crisisType:etCrisisType
 				
 				operation init(
 										Aid:dtCoordinatorID ,
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword,
+										AphoneNumber:dtPhoneNumber,
+										AgeographicalLocation:etGeographicalLocation,
+										AcrisisType:etCrisisType):ptBoolean
 			}
 
 			class ctAdministrator 
@@ -112,7 +120,8 @@ import lu.uni.lassy.messir.libraries.calendar
 
 				operation init(
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword,
+										AphoneNumber:dtPhoneNumber ):ptBoolean
 			}
 		}
 	}

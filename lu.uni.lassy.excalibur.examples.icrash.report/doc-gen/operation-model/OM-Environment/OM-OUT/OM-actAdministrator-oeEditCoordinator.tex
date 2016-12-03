@@ -1,0 +1,45 @@
+\subsection{Operation Model for oeEditCoordinator}
+
+\label{OM-oeEditCoordinator}
+
+
+The \msrcode{oeEditCoordinator} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{oeEditCoordinator}{sent to edit an existing coordinator in the system's post state and environment's post state.}
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{AdtCoordinatorID: dtCoordinatorID}{used for ctCoordinator instance retrieval} 
+	\addnumbereddoublerow{}{AetGeoraphicalLocation: etGeographicalLocation}{the parameter to which current geographical location of coordinator will be changed} 
+	\addnumbereddoublerow{}{AetCrisisType: etCrisisType}{the parameter to which current crisis type of coordinator will be changed} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+	\addrowheading{Pre-Condition (protocol)}
+	\addnumberedsinglerow{PreP}{the system is started}
+	\addnumberedsinglerow{PreP}{the actor logged previously and did not log out ! (i.e. the associated ctAdministrator instance is considered logged)}
+		
+	\addrowheading{Pre-Condition (functional)}
+	\addnumberedsinglerow{PreF}{ it is supposed that there exist one ctCoordinator instance with the same \msrcode{id} attribute than the one the administrator wants to edit.}
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{ the ctCoordinator class instance having the required id now has updated geographical location and crisis type .}
+	\addnumberedsinglerow{PostF}{the administrator actor is informed about the satisfaction of its request.}
+
+	\addrowheading{Post-Condition (protocol)}
+	\addnumberedsinglerow{PostP}{ none }
+	\end{operationmodel}
+
+
+
+	
+	
+	
+	
+
+
+
+
+

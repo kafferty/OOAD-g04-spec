@@ -6,6 +6,7 @@ import icrash.concepts.primarytypes.datatypes
 import icrash.concepts.primarytypes.classes
 import icrash.concepts.secondarytypes.datatypes
 import icrash.concepts.secondarytypes.classes
+import lu.uni.lassy.messir.libraries.string
 import icrash.environment
 
 Operation Model {
@@ -22,6 +23,7 @@ preP{
   and TheSystem.vpStarted = true
 /* PreP02 */
   and TheActor.rnctAuthenticated.vpIsLogged = false
+  and TheActor.rnctAuthenticated.vpIsLoggedStep1 = false
 }
 preF{
 /* PreF01 */
@@ -43,8 +45,9 @@ postF{
           and TheactAuthenticated.rnctAuthenticated.login
               = AdtLogin
          )
-      then (AptStringMessageForTheactAuthenticated.eq('You are logged ! Welcome ...')
+      then (AptStringMessageForTheactAuthenticated.eq('Login and Password are correct ...')
             and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
+            and TheSystem.rnactComCompany.rnInterfaceIN^ieSmsSend()
            )
       else (AptStringMessageForTheactAuthenticated
             .eq('Wrong identification information ! Please try again ...')
@@ -56,23 +59,71 @@ postF{
       endif
 }
 postP{
+	let TheSystem: ctState in
+  	let TheactAuthenticated:actAuthenticated in
+
+  	self.rnActor.rnSystem = TheSystem
+  	and self.rnActor = TheactAuthenticated
+	if (TheactAuthenticated.rnctAuthenticated.pwd
+          = AdtPassword
+          and TheactAuthenticated.rnctAuthenticated.login
+              = AdtLogin
+         )
+ 	then (TheactAuthenticated.rnctAuthenticated@post.vpIsLoggedStep1 = true)
+ 	else false
+ 	endif
+}
+prolog{"src/Operations/Environment/OUT/outactAuthenticated-oeLogin.pl"}
+}
+/*-------------------------------------------------------------------------------*/
+operation: actAuthenticated.outactAuthenticated.oeSMS(smsCode:dtString):ptBoolean{
+	preP{
+  		let TheSystem: ctState in
+  		let TheActor:actAuthenticated in
+  		self.rnActor.rnSystem = TheSystem
+  		and self.rnActor = TheActor
+		/* PreP01 */
+  		and TheSystem.vpStarted = true
+		/* PreP02 */
+  		and TheActor.rnctAuthenticated.vpIsLogged = false
+  		and TheActor.rnctAuthencitated.vpIsloggedStep1 = true
+	}
+	preF{
+		true
+	}
+	postF{
+  		let TheSystem: ctState in
+  		let TheactAuthenticated:actAuthenticated in
+
+  		let AptStringMessageForTheactAuthenticated: ptString in
+  		let AptStringMessageForTheactAdministrator:ptString in
+  
+  		self.rnActor.rnSystem = TheSystem
+  		and self.rnActor = TheactAuthenticated
+  
+  		and /* PostF01 */
+      		if (TheactAuthenticated.rnctAuthenticated.smscode
+          		= smsCode)	
+      		then (AptStringMessageForTheactAuthenticated.eq('You are logged ! Welcome ...')
+            and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
+           	)
+        	else false
+        	endif
+}
+postP{
   let TheSystem: ctState in
   let TheactAuthenticated:actAuthenticated in
 
   self.rnActor.rnSystem = TheSystem
   and self.rnActor = TheactAuthenticated
 /* PostP01 */
-  if (TheactAuthenticated.rnctAuthenticated.pwd = AdtPassword
-      and TheactAuthenticated.rnctAuthenticated.login = AdtLogin
-     )
+  if (TheactAuthenticated.rnctAuthenticated.smscode = smsCode)
   then (TheactAuthenticated.rnctAuthenticated@post.vpIsLogged = true)
-  else true
+  else false
   endif
-}
-prolog{"src/Operations/Environment/OUT/outactAuthenticated-oeLogin.pl"}
+}		
 }
 /*-------------------------------------------------------------------------------*/
-
 operation: actAuthenticated.outactAuthenticated.oeLogout():ptBoolean{
 
 

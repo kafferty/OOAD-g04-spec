@@ -1,0 +1,16 @@
+/*
+@author 809279
+@date Tue Nov 15 05:31:09 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtCode
+@description "a datatype which generates the code"
+@attribute
+icrash.concepts.primarytypes.datatypes.dtCode.generatedCode
+"an attribute in dtString in which the code is stored"
+@endAttributes
+@operation
+icrash.concepts.primarytypes.datatypes.dtCode.is
+"used to determine which strings are considered as valid generated codes."
+@endOperations

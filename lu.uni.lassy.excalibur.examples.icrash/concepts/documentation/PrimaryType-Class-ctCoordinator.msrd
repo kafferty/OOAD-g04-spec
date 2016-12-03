@@ -5,7 +5,10 @@
 
 @attribute icrash.concepts.primarytypes.classes.ctCoordinator.id
 "a unique identification information."
-
+@attribute icrash.concepts.primarytypes.classes.ctCoordinator.geographicalLocation
+"used to inentify geographical location for which coordinator is assigned."
+@attribute icrash.concepts.primarytypes.classes.ctCoordinator.crisisType
+"used to inentify crisisType for which coordinator is assigned."
 @endAttributes
 
 @operation icrash.concepts.primarytypes.classes.ctCoordinator.init

@@ -5,7 +5,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeGetCrisisSet
 "the status information used to determine the crisis to send back to the actor"
 @endParameters
 @description
-"sent to request all the ctCrisis instances having a specific status."
+"sent to request all the ctCrisis instances having a specific status, crisis type and geographical location ."
 
 //preProtocol descriptions
 @preP
@@ -21,7 +21,7 @@ icrash.environment.actCoordinator.outactCoordinator.oeGetCrisisSet
 
 //postFunctional descriptions
 @postF 
-" the post state is the one obtained by satisfying the \msrcode{isSentToCoordinator} predicate for each crisis having the provided status and for the actor sending the message \msrcode{ieSendACrisis}. (cf. specification of \msrcode{isSentToCoordinator} predicate given for the \msrcode{ctCrisis} type."
+" the post state is the one obtained by satisfying the \msrcode{isSentToCoordinator} predicate for each crisis having the provided status, same crisis type and geographical location as ctCoordinator has, and for the actor sending the message \msrcode{ieSendACrisis}. (cf. specification of \msrcode{isSentToCoordinator} predicate given for the \msrcode{ctCrisis} type."
 @endPostF
 
 //postProtocol descriptions

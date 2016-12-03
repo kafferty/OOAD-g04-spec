@@ -1,0 +1,43 @@
+/*
+@author 809279
+@date Tue Nov 15 05:32:50 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actAuthenticated.outactAuthenticated.oeSMS
+//parameters
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeSMS.AdtString
+"string which contains the code which will be compared with the one generated for authenticated user"
+@endParameters
+
+@description 
+"sent to request authorization to request access secured system operations."
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor is not already logged in ! (i.e. the associated ctAuthenticated instance is not considered logged)"
+@preP
+"the actor's method oeLogin is executed and variable vpIsLoggedStep1 = true"
+@preP
+"the actor has resived sms code on his telephone"
+@endPreP
+
+//preFunctional descriptions
+@preF
+"none "
+@endPreF
+
+//postFunctional descriptions
+@postF 
+" if the sms code provided by the actor correspond to the ones that belong to the ctAuthenticated instance he is related to 
+then a welcome message is sent to the actor (n.b. the logged status is changed as a post-protocol condition). "
+@endPostF
+//postProtocol descriptions
+@postP 
+"if the sms code is correct then the actor is known to be logged in ! (i.e. the associated ctAuthenticated instance with given login and password is considered logged)"
+@endPostP
+//example
+@example" "

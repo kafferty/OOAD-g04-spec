@@ -8,10 +8,14 @@
 
 @attribute icrash.concepts.primarytypes.classes.ctAuthenticated.pwd
 "a key for authentication."
+@attribute icrash.concepts.primarytypes.classes.ctAuthenticated.phoneNumber
+"use for identifing a user phone number"
 
 @attribute icrash.concepts.primarytypes.classes.ctAuthenticated.vpIsLogged
 "used to determine the access status."
 
+@attribute icrash.concepts.primarytypes.classes.ctAuthenticated.vpIsLoggedStep1
+"used to determine the correctness of password and login."
 @endAttributes
 
 @operation icrash.concepts.primarytypes.classes.ctAuthenticated.init

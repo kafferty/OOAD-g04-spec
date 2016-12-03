@@ -23,49 +23,10 @@ The \msrcode{is} operation has the following properties:
 
 
 
-	% ------------------------------------------
-	% MCL Listing
-	% ------------------------------------------
-	\vspace{1cm}
-	The listing~\ref{OM-dtCoordinatorID-is-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{is}.},label=OM-dtCoordinatorID-is-MCL-LST]
-
-	
-	
-	/* Post Functional:*/ 
-	postF{let TheResult: ptBoolean in
-	        ( if
-	          ( AdtValue.value.length().gt(0)
-	            and AdtValue.value.length().leq(5)
-	          )
-	          then (TheResult = true)
-	          else (TheResult = false)
-	          endif
-	          result = TheResult
-	        )}
-	
-	
-	\end{lstlisting}
-	\normalsize 
 	
 	
 	
 	
-	% ------------------------------------------
-	% PROLOG Listing
-	% ------------------------------------------
-	
-	\vspace{1cm}
-	The listing~\ref{OM-dtCoordinatorID-is-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
-	
-	\scriptsize
-	\vspace{0.5cm}
-	
-	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{is}.},label=OM-dtCoordinatorID-is-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTypesDatatypes-dtCoordinatorID-is.pl}
-	\normalsize
 
 
 

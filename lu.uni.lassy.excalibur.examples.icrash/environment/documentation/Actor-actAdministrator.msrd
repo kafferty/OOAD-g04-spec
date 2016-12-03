@@ -7,6 +7,8 @@
 "its reception confirms the creation of the requested coodinator. "
 @inputEvent icrash.environment.actAdministrator.inactAdministrator.ieCoordinatorDeleted
 "its reception confirms the deletion of the requested coodinator. "
+@inputEvent icrash.environment.actAdministrator.inactAdministrator.ieCoordinatorEdited
+"its reception confirms the edition of the requested coodinator. "
 @endInputEvents
 
 //output events
@@ -14,5 +16,7 @@
 "sent to add a new coordinator in the system's post state and environment's post state."
 @outputEvent icrash.environment.actAdministrator.outactAdministrator.oeDeleteCoordinator
 "sent to delete an existing coordinator in the system's post state and environment's post state."
+@outputEvent icrash.environment.actAdministrator.outactAdministrator.oeEditCoordinator
+"sent to edit an existing coordinator in the system's post state and environment's post state."
 
 @endOutputEvents

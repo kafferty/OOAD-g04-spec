@@ -1,0 +1,45 @@
+\subsection{Operation Model for oeSMS}
+
+\label{OM-oeSMS}
+
+
+The \msrcode{oeSMS} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{oeSMS}{sent to request authorization to request access secured system operations.}
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{AdtString: dtString}{string which contains the code which will be compared with the one generated for authenticated user} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+	\addrowheading{Pre-Condition (protocol)}
+	\addnumberedsinglerow{PreP}{the system is started}
+	\addnumberedsinglerow{PreP}{the actor is not already logged in ! (i.e. the associated ctAuthenticated instance is not considered logged)}
+	\addnumberedsinglerow{PreP}{the actor's method oeLogin is executed and variable vpIsLoggedStep1 = true}
+	\addnumberedsinglerow{PreP}{the actor has resived sms code on his telephone}
+		
+	\addrowheading{Pre-Condition (functional)}
+	\addnumberedsinglerow{PreF}{none }
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{ if the sms code provided by the actor correspond to the ones that belong to the ctAuthenticated instance he is related to 
+	then a welcome message is sent to the actor (n.b. the logged status is changed as a post-protocol condition). }
+
+	\addrowheading{Post-Condition (protocol)}
+	\addnumberedsinglerow{PostP}{if the sms code is correct then the actor is known to be logged in ! (i.e. the associated ctAuthenticated instance with given login and password is considered logged)}
+	\end{operationmodel}
+
+
+
+	
+	
+	
+	
+
+
+
+
+

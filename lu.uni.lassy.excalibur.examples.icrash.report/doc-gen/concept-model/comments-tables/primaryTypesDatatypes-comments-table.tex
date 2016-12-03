@@ -13,6 +13,9 @@ The table below is providing comments on the graphical views given for the datat
 \adddoublerow{dtAlertID}{ A string used to identify alerts.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid alert identifiers.}
+\adddoublerow{dtCode}{a datatype which generates the code}
+\adddoubletwocolumnrow{attribute}{\msrcode{generatedCode: dtString}}{an attribute in dtString in which the code is stored}
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid generated codes.}
 \adddoublerow{dtComment}{a datatype made of a string value used to receive,store and send textual information about crisis and alerts.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid comments.}
@@ -59,6 +62,8 @@ this type is used to indicate the different handling status of a crisis.
 \adddoublerow{etCrisisType}{
 this type is used to indicate the different types of a crisis.
 }
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which litteral belongs to the enumeration.}
+\adddoublerow{etGeographicalLocation}{this type is used to indicate the different types of geographical locations.}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which litteral belongs to the enumeration.}
 \adddoublerow{etHumanKind}{
 this type is used to indicate the kind of human that informs about a car crash crisis.

@@ -10,7 +10,7 @@ The table below is providing comments on the graphical views given for the class
 
 \adddoublerow{ctAdministrator}{used to caracterize internally the entity that is responsible of administrating the \msricrash system.}
 \addsingletwocolumnrow{extends}{icrash.concepts.primarytypes.classes.ctAuthenticated}
-\adddoubletwocolumnrow{operation}{\msrcode{init(Alogin:dtLogin, Apwd:dtPassword):ptBoolean}}{used to initialize the current object as a new instance of the ctAdministrator type.}
+\adddoubletwocolumnrow{operation}{\msrcode{init(Alogin:dtLogin, Apwd:dtPassword, AphoneNumber:dtPhoneNumber):ptBoolean}}{used to initialize the current object as a new instance of the ctAdministrator type.}
 \adddoublerow{ctAlert}{Used to model crisis alerts sent by any human having communication capability using communication companies belonging to the system's environment}
 \adddoubletwocolumnrow{attribute}{\msrcode{comment: dtComment}}{a textual description providing unstructured information on the alert.}
 \adddoubletwocolumnrow{attribute}{\msrcode{id: dtAlertID}}{the alert unique identification information.}
@@ -21,13 +21,17 @@ The table below is providing comments on the graphical views given for the class
 \adddoubletwocolumnrow{operation}{\msrcode{isSentToCoordinator(AactCoordinator:actCoordinator):ptBoolean}}{used to provide a given coordinator with current alert information.}
 \adddoublerow{ctAuthenticated}{used to model system's representation about actors that need to authenticate to access some specific functionalities.}
 \adddoubletwocolumnrow{attribute}{\msrcode{login: dtLogin}}{an identifier for authentication.}
+\adddoubletwocolumnrow{attribute}{\msrcode{phoneNumber: dtPhoneNumber}}{use for identifing a user phone number}
 \adddoubletwocolumnrow{attribute}{\msrcode{pwd: dtPassword}}{a key for authentication.}
 \adddoubletwocolumnrow{attribute}{\msrcode{vpIsLogged: ptBoolean}}{used to determine the access status.}
-\adddoubletwocolumnrow{operation}{\msrcode{init(Alogin:dtLogin, Apwd:dtPassword):ptBoolean}}{used to initialize the current object as a new instance of the ctAuthenticated type.}
+\adddoubletwocolumnrow{attribute}{\msrcode{vpIsLoggedStep1: ptBoolean}}{used to determine the correctness of password and login.}
+\adddoubletwocolumnrow{operation}{\msrcode{init(Alogin:dtLogin, Apwd:dtPassword, AphoneNumber:dtPhoneNumber):ptBoolean}}{used to initialize the current object as a new instance of the ctAuthenticated type.}
 \adddoublerow{ctCoordinator}{used to model system's representation about the actors that have the responsibility to handle alerts and crisis.}
 \addsingletwocolumnrow{extends}{icrash.concepts.primarytypes.classes.ctAuthenticated}
+\adddoubletwocolumnrow{attribute}{\msrcode{crisisType: etCrisisType}}{used to inentify crisisType for which coordinator is assigned.}
+\adddoubletwocolumnrow{attribute}{\msrcode{geographicalLocation: etGeographicalLocation}}{used to inentify geographical location for which coordinator is assigned.}
 \adddoubletwocolumnrow{attribute}{\msrcode{id: dtCoordinatorID}}{a unique identification information.}
-\adddoubletwocolumnrow{operation}{\msrcode{init(Aid:dtCoordinatorID, Alogin:dtLogin, Apwd:dtPassword):ptBoolean}}{used to initialize the current object as a new instance of the ctCoordinator type.}
+\adddoubletwocolumnrow{operation}{\msrcode{init(Aid:dtCoordinatorID, Alogin:dtLogin, Apwd:dtPassword, AphoneNumber:dtPhoneNumber, AgeographicalLocation:etGeographicalLocation, AcrisisType:etCrisisType):ptBoolean}}{used to initialize the current object as a new instance of the ctCoordinator type.}
 \adddoublerow{ctCrisis}{Used to model crisis that are infered from the reception of at least one alert message. Crisis aer entities that are handled by the \msricrash system.}
 \adddoubletwocolumnrow{attribute}{\msrcode{comment: dtComment}}{a textual description providing unstructured information on the crisis handling.}
 \adddoubletwocolumnrow{attribute}{\msrcode{id: dtCrisisID}}{the crisis unique identification information.}

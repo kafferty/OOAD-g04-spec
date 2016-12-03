@@ -8,7 +8,12 @@ import icrash.environment
 
 Operation Model {
 
-operation: actAdministrator.outactAdministrator.oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword):ptBoolean
+operation: actAdministrator.outactAdministrator.oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID ,
+											AdtLogin:dtLogin , 
+											AdtPassword:dtPassword,
+											AdtPhoneNumber:dtPhoneNumber,
+											AetGeoraphicalLocation:etGeographicalLocation,
+											AetCrisisType:etCrisisType):ptBoolean
 {
 preP{
   let TheSystem: ctState in
@@ -43,7 +48,12 @@ postF{
 /* PostF01 */
   TheactCoordinator.init()
 /* PostF02 */
-  and ThectCoordinator.init(AdtCoordinatorID,AdtLogin,AdtPassword)
+  and ThectCoordinator.init(AdtCoordinatorID,
+  							AdtLogin,
+  							AdtPassword,
+  							AdtPhoneNumber,
+							AetGeoraphicalLocation,
+							AetCrisisType)
 
 /* PostF03 */
   and TheactCoordinator@post.rnctCoordinator = ThectCoordinator
