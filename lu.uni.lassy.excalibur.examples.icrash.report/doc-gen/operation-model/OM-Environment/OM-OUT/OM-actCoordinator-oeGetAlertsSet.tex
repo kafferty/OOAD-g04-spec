@@ -7,7 +7,7 @@ The \msrcode{oeGetAlertsSet} operation has the following properties:
 
 	\begin{operationmodel}
 	\addheading{Operation}
-	\adddoublerow{oeGetAlertsSet}{sent to request all the ctAlert instances having a specific status.}
+	\adddoublerow{oeGetAlertsSet}{sent to request all the ctAlert instances having a specific status, crisis Type and geographical location.}
 
 	\addrowheading{Parameters}
 	\addnumbereddoublerow{}{AetAlertStatus: etAlertStatus}{the criteria used to select the alerts to send back to the actor} 
@@ -23,7 +23,7 @@ The \msrcode{oeGetAlertsSet} operation has the following properties:
 	\addnumberedsinglerow{PreF}{none}
 
 	\addrowheading{Post-Condition (functional)}
-	\addnumberedsinglerow{PostF}{ the post state is the one obtained by satisfying the \msrcode{isSentToCoordinator} predicate for each alert having the provided status and for the actor sending the message. (cf. specification of \msrcode{isSentToCoordinator} predicate given for the \msrcode{ctAlert} type.}
+	\addnumberedsinglerow{PostF}{ the post state is the one obtained by satisfying the \msrcode{isSentToCoordinator} predicate for each alert having the provided status,same crisis type and geographical location as ctCoordinator has, and for the actor sending the message. (cf. specification of \msrcode{isSentToCoordinator} predicate given for the \msrcode{ctAlert} type.}
 
 	\addrowheading{Post-Condition (protocol)}
 	\addnumberedsinglerow{PostP}{ none}
@@ -35,6 +35,18 @@ The \msrcode{oeGetAlertsSet} operation has the following properties:
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-actCoordinator-oeGetAlertsSet-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{oeGetAlertsSet}.},label=OM-actCoordinator-oeGetAlertsSet-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Environment/OUT/outactCoordinator-oeGetAlertsSet.pl}
+	\normalsize
 
 
 

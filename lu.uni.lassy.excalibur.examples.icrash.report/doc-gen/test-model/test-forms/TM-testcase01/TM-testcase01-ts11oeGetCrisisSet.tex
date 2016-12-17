@@ -38,5 +38,39 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts11oeGetCrisisSet-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts11oeGetCrisisSet}.},label=TM-testcase01-ts11oeGetCrisisSet-MCL-LST]
+
+	variables{
+		TheActor : actCoordinator
+		AetCrisisStatus : etCrisisStatus
+	}
+	
+	constraints{
+		TheActor=TheSystem.rnactCoordinator
+		            ->select(a | a.rnctCoordinator.login.value.eq('steve'))
+		            ->any2(true)
+		AetCrisisStatus = pending
+	}
+	
+	oracle{
+		variables{
+			ActCrisis:ctCrisis
+		}
+		constraints{
+			TheActor.inactCoordinator.ieSendACrisis(ActCrisis)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

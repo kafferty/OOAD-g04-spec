@@ -54,5 +54,47 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts12oeSetCrisisHandler-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts12oeSetCrisisHandler}.},label=TM-testcase01-ts12oeSetCrisisHandler-MCL-LST]
+
+	variables{
+		TheActor : actCoordinator
+		AdtCrisisID : dtCrisisID
+	}
+	
+	constraints{
+		TheActor=TheSystem.rnactCoordinator
+		            ->select(a | a.rnctCoordinator.login.value.eq('steve'))
+		            ->any2(true)
+	}
+	
+	oracle{
+		variables{
+			AMessage:ptString
+			AdtPhoneNumber:dtPhoneNumber
+			AdtSMS:dtSMS
+			ActAlert:ctAlert
+			TheComCompany: actComCompany
+			TheCoordinator:actCoordinator
+		}
+		constraints{
+			AMessage = 'You are now considered as handling the crisis !'
+			AdtSMS.value = 'The handling of your alert by our services is in progress !'
+			TheComCompany.inactComCompany.ieSmsSend(AdtPhoneNumber,AdtSMS)
+			TheCoordinator.inactCoordinator.ieSendAnAlert(ActAlert)
+			TheActor.inactAuthenticated.ieMessage(AMessage)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

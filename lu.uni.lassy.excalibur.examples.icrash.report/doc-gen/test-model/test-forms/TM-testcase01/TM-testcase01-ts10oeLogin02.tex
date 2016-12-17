@@ -35,5 +35,40 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts10oeLogin02-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts10oeLogin02}.},label=TM-testcase01-ts10oeLogin02-MCL-LST]
+
+	variables{
+		TheActor : actCoordinator
+		AdtLogin:dtLogin
+		AdtPassword:dtPassword
+	}
+	
+	constraints{
+		TheActor = TheSystem.rnactCoordinator->select(a | a.rnctCoordinator.login.value.eq('steve'))->any2(true)
+		AdtLogin.value.eq('steve')
+		AdtPassword.value.eq('pwdMessirExcalibur2017')
+	}
+	
+	oracle{
+		variables{
+			AMessage:ptString
+		}
+		constraints{
+			AMessage = 'You are logged ! Welcome ...'
+			TheActor.inactAuthenticated.ieMessage(AMessage)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

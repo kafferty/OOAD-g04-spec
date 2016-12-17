@@ -54,5 +54,53 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts15oeAlert2-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts15oeAlert2}.},label=TM-testcase01-ts15oeAlert2-MCL-LST]
+
+	variables{
+		TheActor : actComCompany
+		AetHumanKind:etHumanKind
+		AdtDate:dtDate
+		AdtTime:dtTime
+		AdtPhoneNumber:dtPhoneNumber
+		AdtGPSLocation:dtGPSLocation
+		AdtComment:dtComment
+	}
+	
+	constraints{
+		TheActor = TheSystem.rnactComCompany->any2(true)
+		AetHumanKind = witness
+		AdtDate.year.value = 2017
+		AdtDate.month.value = 11
+		AdtDate.day.value = 26
+		AdtTime.hour.value = 10
+		AdtTime.minute.value = 20
+		AdtTime.second.value = 00
+		AdtPhoneNumber.value = '+3524666445000'
+		AdtGPSLocation.latitude.value = 49.627095
+		AdtGPSLocation.longitude.value = 6.160251
+		AdtComment.value = 'A car crash just happened.'
+	}
+	
+	oracle{
+		variables{
+			AdtSMS:dtSMS
+		}
+		constraints{
+			AdtSMS.value = 'Your alert has been registered. We will handle it and keep you informed'
+			TheActor.actComCompany.inactComCompany.ieSmsSend(AdtPhoneNumber,AdtSMS)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

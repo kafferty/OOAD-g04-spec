@@ -34,10 +34,57 @@ The \msrcode{oeSetClock} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actActivator-oeSetClock-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeSetClock}.},label=OM-actActivator-oeSetClock-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+	  let AvpStarted: ptBoolean in
+	  
+	/* PreP01 */
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor.rnSystem.vpStarted = AvpStarted
+	  and AvpStarted = true
+	  and TheSystem.clock.lt(AcurrentClock)}
+	
+	/* Pre Functional:*/
+	preF{true}
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+	  self.rnActor.rnSystem = TheSystem
+	
+	/* PostF01 */
+	  and TheSystem@post.clock = AcurrentClock}
+	
+	/* Post Protocol:*/ 
+	postP{ true}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-actActivator-oeSetClock-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{oeSetClock}.},label=OM-actActivator-oeSetClock-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Environment/OUT/outactActivator-oeSetClock.pl}
+	\normalsize
 
 
 

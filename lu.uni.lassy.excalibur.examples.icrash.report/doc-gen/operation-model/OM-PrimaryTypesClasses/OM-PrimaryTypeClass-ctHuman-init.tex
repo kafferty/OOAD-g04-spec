@@ -26,10 +26,53 @@ The \msrcode{init} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-ctHuman-init-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{init}.},label=OM-ctHuman-init-MCL-LST]
+
+	
+	
+	/* Post Functional:*/ 
+	postF{if
+	(
+	/* Post F01 */
+	let Self:ctHuman in
+	
+	Self.id = Aid
+	and Self.kind = Akind
+	
+	/* Post F02 */
+	and (Self.oclIsNew and self = Self)
+	)
+	then (result = true)
+	else (result = false)
+	endif}
+	
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-ctHuman-init-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{init}.},label=OM-ctHuman-init-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesClasses/PrimaryTypesClasses-ctHuman-init.pl}
+	\normalsize
 
 
 

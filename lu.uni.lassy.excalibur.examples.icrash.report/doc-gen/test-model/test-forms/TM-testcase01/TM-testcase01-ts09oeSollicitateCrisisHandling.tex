@@ -43,5 +43,41 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts09oeSollicitateCrisisHandling-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts09oeSollicitateCrisisHandling}.},label=TM-testcase01-ts09oeSollicitateCrisisHandling-MCL-LST]
+
+	variables{
+		TheActor : actActivator
+	}
+	
+	constraints{
+		TheActor = TheSystem.rnactActivator->any2(true)
+	}
+	
+	oracle{
+		variables{
+			TheAdministrator:actAdministrator
+			TheCoordinator:actCoordinator
+			AMessageForCrisisHandlers:ptString
+		}
+		constraints{
+			TheAdministrator = TheSystem.rnactAdministrator->any2(true)
+			TheCoordinator = TheSystem.rnactCoordinator->any2(true)
+			AMessageForCrisisHandlers = 'There are alerts pending since more than the defined delay. Please REACT !'
+			TheAdministrator.inactAdministrator.ieMessage(AMessageForCrisisHandlers)
+			TheCoordinator.inactAdministrator.ieMessage(AMessageForCrisisHandlers)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

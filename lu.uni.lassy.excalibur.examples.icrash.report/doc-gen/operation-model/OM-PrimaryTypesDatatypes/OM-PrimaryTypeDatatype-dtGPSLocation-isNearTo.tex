@@ -30,10 +30,68 @@ The \msrcode{isNearTo} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-dtGPSLocation-isNearTo-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{isNearTo}.},label=OM-dtGPSLocation-isNearTo-MCL-LST]
+
+	
+	
+	/* Post Functional:*/ 
+	postF{let TheResult: ptBoolean in true
+	        let EarthRadius: dtReal in
+	        let MaxDistance: dtReal in
+	        let ComparedLatitude: dtLatitude in
+	        let ComparedLongitude: dtLongitude in
+	        let R1: dtReal in let R1a: dtReal in
+	        let R2: dtReal in let R2a: dtReal in
+	        
+	        ( if
+	          ( EarthRadius.value = 6371
+	            and MaxDistance.value = 100
+	            
+	            and AdtValue.latitude = ComparedLatitude
+	            and AdtValue.longitude = ComparedLongitude
+	            and Self.latitude.sin() = R1a
+	            and AdtValue.latitude.sin().mul(R1a) = R1
+	            and Self.latitude.cos() = R2a
+	            and AdtValue.latitude.cos().mul(R2a) = R2
+	            
+	            and AdtValue.longitude = ComparedLongitude
+	            and Self.longitude.sub(ComparedLongitude).cos().mul(R2)
+	                    .add(R1).acos().mul(EarthRadius).sub(MaxDistance)
+	                    .value.leq(0)
+	          )
+	          then (TheResult = true)
+	          else (TheResult = false)
+	          endif
+	          result = TheResult
+	        )}
+	
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-dtGPSLocation-isNearTo-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{isNearTo}.},label=OM-dtGPSLocation-isNearTo-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTypesDatatypes-dtGPSLocation-isNearTo.pl}
+	\normalsize
 
 
 

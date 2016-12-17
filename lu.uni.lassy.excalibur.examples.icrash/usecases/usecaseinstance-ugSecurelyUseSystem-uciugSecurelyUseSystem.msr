@@ -19,8 +19,14 @@ package usecases.uciugSecurelyUseSystem {
         bill
         executed instanceof subfunction
               oeLogin("icrashadmin","7WXC1359"){
-                ieMessage('You are logged ! Welcome ...') returned to bill
+                ieMessage('You login and password are correct. Sms code has been sent') returned to bill
               }
+//-----------------------------
+        bill
+        executed instanceof subfunction
+        	oeSMS("456123"){
+        		ieMessage('You are logged in ! Wellcome ...') returned to bill
+        	}
 //-----------------------------
         bill
         executed instanceof subfunction

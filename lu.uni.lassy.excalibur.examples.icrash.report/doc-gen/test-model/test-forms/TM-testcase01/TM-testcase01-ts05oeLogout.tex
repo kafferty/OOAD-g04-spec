@@ -34,5 +34,36 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts05oeLogout-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts05oeLogout}.},label=TM-testcase01-ts05oeLogout-MCL-LST]
+
+	variables{
+		TheActor : actAdministrator
+	}
+	
+	constraints{
+		TheActor = TheSystem.rnactAdministrator->any2(true)
+	}
+	
+	oracle{
+		variables{
+			AMessage:ptString
+		}
+		constraints{
+			AMessage = 'You are logged out ! Good Bye ...'
+			TheActor.inactAdministrator.ieMessage(AMessage)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

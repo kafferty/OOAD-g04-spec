@@ -36,5 +36,40 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts03oeLogin-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts03oeLogin}.},label=TM-testcase01-ts03oeLogin-MCL-LST]
+
+	variables{
+		TheActor : actAdministrator
+		AdtLogin:dtLogin
+		AdtPassword:dtPassword
+	}
+	
+	constraints{
+		TheActor=TheSystem.rnactAdministrator->any2(true)
+		AdtLogin.value.eq('icrashadmin')
+		AdtPassword.value.eq('7WXC1359')
+	}
+	
+	oracle{
+		variables{
+			AMessage:ptString
+		}
+		constraints{
+			AMessage = 'You are logged ! Welcome ...'
+			TheActor.inactAdministrator.ieMessage(AMessage)
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

@@ -7,7 +7,7 @@ The \msrcode{oeSetCrisisType} operation has the following properties:
 
 	\begin{operationmodel}
 	\addheading{Operation}
-	\adddoublerow{oeSetCrisisType}{sent to define the gravity type of a specific crisis.}
+	\adddoublerow{oeSetCrisisType}{sent to define the gravity type of a specific crisis and alert which is associated with this crisis.}
 
 	\addrowheading{Parameters}
 	\addnumbereddoublerow{}{AdtCrisisID: dtCrisisID}{the identification information used to determine the crisis} 
@@ -24,7 +24,7 @@ The \msrcode{oeSetCrisisType} operation has the following properties:
 	\addnumberedsinglerow{PreF}{it is supposed that there exist one crisis in the pre state having the given id.}
 
 	\addrowheading{Post-Condition (functional)}
-	\addnumberedsinglerow{PostF}{the crisis type attribute of the crisis instance having the given id is replaced by the given one and the requesting actor is notified of this update.}
+	\addnumberedsinglerow{PostF}{the crisis type attribute of the crisis  instance having the given id is replaced by the given one. the crisis type attribute of the alert insanse that is associated with current crisis is replaced by the given one. the requesting actor is notified of this update.}
 
 	\addrowheading{Post-Condition (protocol)}
 	\addnumberedsinglerow{PostP}{none}
@@ -36,6 +36,18 @@ The \msrcode{oeSetCrisisType} operation has the following properties:
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-actCoordinator-oeSetCrisisType-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{oeSetCrisisType}.},label=OM-actCoordinator-oeSetCrisisType-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Environment/OUT/outactCoordinator-oeSetCrisisType.pl}
+	\normalsize
 
 
 

@@ -16,12 +16,42 @@ The \msrcode{is} operation has the following properties:
 		
 
 	\addrowheading{Post-Condition (functional)}
-	\addnumberedsinglerow{PostF}{true iff the value is equal to one of the following values: \msrcode{central, southern, nothern, eastern, western}.}
+	\addnumberedsinglerow{PostF}{true iff the value is equal to one of the following values: \msrcode{central, southWestern, northWestern, southEastern, northEastern}}
 
 	\end{operationmodel}
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-etGeographicalLocation-is-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{is}.},label=OM-etGeographicalLocation-is-MCL-LST]
+
+	
+	
+	/* Post Functional:*/ 
+	postF{let TheResult: ptBoolean in
+	        ( if
+	          ( self = central
+	            or self = southEastern
+	            or self = southWestern
+	            or self = northEastern
+	            or self = northWestern
+	          )
+	          then (TheResult = true)
+	          else (TheResult = false)
+	          endif
+	          result = TheResult
+	        )}
+	
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	

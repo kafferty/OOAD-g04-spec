@@ -338,10 +338,10 @@
         <path d="M188 337 L217 337 L217 360 L188 360 L188 337 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath92">
-        <path d="M269 99 L432 99 L432 230 L269 230 L269 99 Z" />
+        <path d="M269 99 L432 99 L432 238 L269 238 L269 99 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath93">
-        <path d="M269 99 L430 99 L430 228 L269 228 L269 99 Z" />
+        <path d="M269 99 L430 99 L430 236 L269 236 L269 99 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath94">
         <path d="M270 104 L429 104 L429 128 L270 128 L270 104 Z" />
@@ -350,192 +350,186 @@
         <path d="M270 104 L433 104 L433 128 L270 128 L270 104 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath96">
-        <path d="M274 133 L362 133 L362 158 L274 158 L274 133 Z" />
+        <path d="M274 133 L363 133 L363 160 L274 160 L274 133 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath97">
-        <path d="M274 133 L366 133 L366 158 L274 158 L274 133 Z" />
+        <path d="M274 133 L368 133 L368 160 L274 160 L274 133 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath98">
-        <path d="M274 156 L361 156 L361 181 L274 181 L274 156 Z" />
+        <path d="M274 158 L362 158 L362 185 L274 185 L274 158 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath99">
-        <path d="M274 156 L365 156 L365 181 L274 181 L274 156 Z" />
+        <path d="M274 158 L366 158 L366 185 L274 185 L274 158 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath100">
-        <path d="M274 179 L345 179 L345 204 L274 204 L274 179 Z" />
+        <path d="M274 183 L347 183 L347 210 L274 210 L274 183 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath101">
-        <path d="M274 179 L349 179 L349 204 L274 204 L274 179 Z" />
+        <path d="M274 183 L351 183 L351 210 L274 210 L274 183 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath102">
-        <path d="M274 202 L345 202 L345 227 L274 227 L274 202 Z" />
+        <path d="M274 208 L347 208 L347 235 L274 235 L274 208 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath103">
-        <path d="M274 202 L349 202 L349 227 L274 227 L274 202 Z" />
+        <path d="M274 208 L351 208 L351 235 L274 235 L274 208 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath104">
-        <path d="M270 131 L429 131 L429 227 L270 227 L270 131 Z" />
+        <path d="M270 131 L429 131 L429 235 L270 235 L270 131 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath105">
-        <path d="M275 139 L293 139 L293 157 L275 157 L275 139 Z" />
+        <path d="M407 99 L561 99 L561 213 L407 213 L407 99 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath106">
-        <path d="M275 162 L293 162 L293 180 L275 180 L275 162 Z" />
+        <path d="M407 99 L559 99 L559 211 L407 211 L407 99 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath107">
-        <path d="M275 185 L293 185 L293 203 L275 203 L275 185 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath108">
-        <path d="M275 208 L293 208 L293 226 L275 226 L275 208 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath109">
-        <path d="M407 99 L561 99 L561 207 L407 207 L407 99 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath110">
-        <path d="M407 99 L559 99 L559 205 L407 205 L407 99 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath111">
         <path d="M408 104 L558 104 L558 128 L408 128 L408 104 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath112">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath108">
         <path d="M408 104 L562 104 L562 128 L408 128 L408 104 Z" />
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath109">
+        <path d="M412 133 L501 133 L501 160 L412 160 L412 133 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath110">
+        <path d="M412 133 L506 133 L506 160 L412 160 L412 133 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath111">
+        <path d="M412 158 L471 158 L471 185 L412 185 L412 158 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath112">
+        <path d="M412 158 L475 158 L475 185 L412 185 L412 158 Z" />
+      </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath113">
-        <path d="M412 133 L500 133 L500 158 L412 158 L412 133 Z" />
+        <path d="M412 183 L487 183 L487 210 L412 210 L412 183 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath114">
-        <path d="M412 133 L504 133 L504 158 L412 158 L412 133 Z" />
+        <path d="M412 183 L491 183 L491 210 L412 210 L412 183 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath115">
-        <path d="M412 156 L469 156 L469 181 L412 181 L412 156 Z" />
+        <path d="M408 131 L558 131 L558 210 L408 210 L408 131 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath116">
-        <path d="M412 156 L472 156 L472 181 L412 181 L412 156 Z" />
+        <path d="M547 99 L696 99 L696 238 L547 238 L547 99 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath117">
-        <path d="M412 179 L484 179 L484 204 L412 204 L412 179 Z" />
+        <path d="M547 99 L694 99 L694 236 L547 236 L547 99 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath118">
-        <path d="M412 179 L487 179 L487 204 L412 204 L412 179 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath119">
-        <path d="M408 131 L558 131 L558 204 L408 204 L408 131 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath120">
-        <path d="M547 99 L696 99 L696 207 L547 207 L547 99 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath121">
-        <path d="M547 99 L694 99 L694 205 L547 205 L547 99 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath122">
         <path d="M548 104 L693 104 L693 128 L548 128 L548 104 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath123">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath119">
         <path d="M548 104 L698 104 L698 128 L548 128 L548 104 Z" />
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath120">
+        <path d="M552 133 L627 133 L627 160 L552 160 L552 133 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath121">
+        <path d="M552 133 L630 133 L630 160 L552 160 L552 133 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath122">
+        <path d="M552 158 L601 158 L601 185 L552 185 L552 158 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath123">
+        <path d="M552 158 L606 158 L606 185 L552 185 L552 158 Z" />
+      </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath124">
-        <path d="M552 133 L613 133 L613 158 L552 158 L552 133 Z" />
+        <path d="M552 183 L609 183 L609 210 L552 210 L552 183 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath125">
-        <path d="M552 133 L617 133 L617 158 L552 158 L552 133 Z" />
+        <path d="M552 183 L613 183 L613 210 L552 210 L552 183 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath126">
-        <path d="M552 156 L639 156 L639 181 L552 181 L552 156 Z" />
+        <path d="M552 208 L640 208 L640 235 L552 235 L552 208 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath127">
-        <path d="M552 156 L644 156 L644 181 L552 181 L552 156 Z" />
+        <path d="M552 208 L645 208 L645 235 L552 235 L552 208 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath128">
-        <path d="M552 179 L614 179 L614 204 L552 204 L552 179 Z" />
+        <path d="M548 131 L693 131 L693 235 L548 235 L548 131 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath129">
-        <path d="M552 179 L619 179 L619 204 L552 204 L552 179 Z" />
+        <path d="M568 214 L701 214 L701 350 L568 350 L568 214 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath130">
-        <path d="M548 131 L693 131 L693 204 L548 204 L548 131 Z" />
+        <path d="M568 214 L699 214 L699 348 L568 348 L568 214 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath131">
-        <path d="M568 214 L701 214 L701 344 L568 344 L568 214 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath132">
-        <path d="M568 214 L699 214 L699 342 L568 342 L568 214 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath133">
         <path d="M571 219 L696 219 L696 265 L571 265 L571 219 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath134">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath132">
         <path d="M571 219 L702 219 L702 265 L571 265 L571 219 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath135">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath133">
         <path d="M571 219 L701 219 L701 265 L571 265 L571 219 Z" />
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath134">
+        <path d="M573 270 L654 270 L654 297 L573 297 L573 270 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath135">
+        <path d="M573 270 L658 270 L658 297 L573 297 L573 270 Z" />
+      </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath136">
-        <path d="M573 270 L653 270 L653 295 L573 295 L573 270 Z" />
+        <path d="M573 295 L642 295 L642 322 L573 322 L573 295 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath137">
-        <path d="M573 270 L657 270 L657 295 L573 295 L573 270 Z" />
+        <path d="M573 295 L646 295 L646 322 L573 322 L573 295 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath138">
-        <path d="M573 293 L640 293 L640 318 L573 318 L573 293 Z" />
+        <path d="M573 320 L690 320 L690 347 L573 347 L573 320 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath139">
-        <path d="M573 293 L644 293 L644 318 L573 318 L573 293 Z" />
+        <path d="M573 320 L695 320 L695 347 L573 347 L573 320 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath140">
-        <path d="M573 316 L688 316 L688 341 L573 341 L573 316 Z" />
+        <path d="M569 268 L698 268 L698 347 L569 347 L569 268 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath141">
-        <path d="M573 316 L693 316 L693 341 L573 341 L573 316 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath142">
-        <path d="M569 268 L698 268 L698 341 L569 341 L569 268 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath143">
         <path d="M9 215 L232 215 L232 303 L9 303 L9 215 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath144">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath142">
         <path d="M9 215 L230 215 L230 301 L9 301 L9 215 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath145">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath143">
         <path d="M10 220 L228 220 L228 283 L10 283 L10 220 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath146">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath144">
         <path d="M10 220 L231 220 L231 283 L10 283 L10 220 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath147">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath145">
         <path d="M10 220 L233 220 L233 283 L10 283 L10 220 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath148">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath146">
         <path d="M10 220 L232 220 L232 283 L10 283 L10 220 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath149">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath147">
         <path d="M10 286 L229 286 L229 300 L10 300 L10 286 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath150">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath148">
         <path d="M200 216 L229 216 L229 239 L200 239 L200 216 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath151">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath149">
         <path d="M9 126 L211 126 L211 199 L9 199 L9 126 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath152">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath150">
         <path d="M9 126 L209 126 L209 197 L9 197 L9 126 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath153">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath151">
         <path d="M17 131 L200 131 L200 179 L17 179 L17 131 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath154">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath152">
         <path d="M17 131 L203 131 L203 179 L17 179 L17 131 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath155">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath153">
         <path d="M17 131 L205 131 L205 179 L17 179 L17 131 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath156">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath154">
         <path d="M17 131 L204 131 L204 179 L17 179 L17 131 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath157">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath155">
         <path d="M10 182 L208 182 L208 196 L10 196 L10 182 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath158">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath156">
         <path d="M179 127 L208 127 L208 150 L179 150 L179 127 Z" />
       </clipPath>
     </defs>
@@ -680,87 +674,85 @@
       <rect x="204" y="453" clip-path="url(#clipPath89)" fill="none" width="12" opacity="0.5098" height="6" stroke="rgb(185,185,185)" stroke-width="26.1" />
       <line clip-path="url(#clipPath90)" fill="none" x1="13" x2="216" y1="440" y2="440" />
       <image width="27" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath91)" preserveAspectRatio="none" font-weight="normal" height="21" font-family="'Segoe UI'" x="189" y="338" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAdUlEQVR42u3UOQ7A&#xD;&#xA;IAwEQOz3+bn+XyKKNJHiazcd24I08gFrnRAinctmdlXuubvAWAX8gsoYWtETZc0j&#xD;&#xA;g2hYBUrbGLVvA/u8CoVYBk06oN02TaF0A6tbSKuMCSrzncHf1RtCZgb9IF1YOguD&#xD;&#xA;gjLd1F+fwkmUG4cGOBSAuvplAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
-      <rect x="271" y="101" clip-path="url(#clipPath92)" fill="url(#linearGradient9)" width="159" rx="0" opacity="0.2549" ry="0" height="127" stroke="none" />
-      <rect x="272" y="102" clip-path="url(#clipPath92)" fill="url(#linearGradient9)" width="159" rx="0" opacity="0.2549" ry="0" height="127" stroke="none" />
-      <rect x="270" y="100" clip-path="url(#clipPath93)" fill="url(#linearGradient10)" width="159" rx="0" ry="0" height="127" stroke="none" />
-      <rect x="270" y="100" clip-path="url(#clipPath93)" fill="none" width="158" rx="0" ry="0" height="126" />
+      <rect x="271" y="101" clip-path="url(#clipPath92)" fill="url(#linearGradient9)" width="159" rx="0" opacity="0.2549" ry="0" height="135" stroke="none" />
+      <rect x="272" y="102" clip-path="url(#clipPath92)" fill="url(#linearGradient9)" width="159" rx="0" opacity="0.2549" ry="0" height="135" stroke="none" />
+      <rect x="270" y="100" clip-path="url(#clipPath93)" fill="url(#linearGradient10)" width="159" rx="0" ry="0" height="135" stroke="none" />
+      <rect x="270" y="100" clip-path="url(#clipPath93)" fill="none" width="158" rx="0" ry="0" height="134" />
       <image x="271" y="107" clip-path="url(#clipPath94)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
       <text xml:space="preserve" x="290" y="124" clip-path="url(#clipPath95)" stroke="none">etCrisisStatus</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath96)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="275" y="138" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="292" y="153" clip-path="url(#clipPath97)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">pending</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath98)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="275" y="161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="292" y="176" clip-path="url(#clipPath99)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">handled</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath100)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="275" y="184" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="292" y="199" clip-path="url(#clipPath101)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">solved</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath102)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="275" y="207" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="292" y="222" clip-path="url(#clipPath103)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">closed</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath96)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="275" y="139" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="292" y="155" clip-path="url(#clipPath97)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">pending</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath98)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="275" y="164" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="292" y="180" clip-path="url(#clipPath99)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">handled</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath100)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="275" y="189" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="292" y="205" clip-path="url(#clipPath101)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">solved</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath102)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="275" y="214" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="292" y="230" clip-path="url(#clipPath103)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">closed</text>
       <line clip-path="url(#clipPath104)" fill="none" x1="271" x2="428" y1="132" y2="132" />
-      <image width="16" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath105)" preserveAspectRatio="none" font-weight="normal" height="16" font-family="'Segoe UI'" x="276" y="140" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0UlEQVR42sVTTUgb&#xD;&#xA;QRT+RkN7MMQSpRAJEQxIyRbUimDZm1BvIngRTx6E9tiT9FAKm6gH8WgvrdTSo5eC&#xD;&#xA;NOeChUTxh0h2IwgRSjDmoFJ2002iiXnOjGnMKuLBQ98wvH3v+77HmzezjIjwEGvC&#xD;&#xA;A83VGBzGYpT7NIcWpR+hdzPsJnlv/gPZqR343ryHX1WZowMp/hiBz34Ee3dTkm+K&#xD;&#xA;//K8wHOLEcl3dHCWSYNKF/D29sDLCMZGHIm3k+QZHIK18RPlTBZKrwrGsaNEXPKh&#xD;&#xA;qtcdBCcmmXvwJfT1NVStEpRgH7z5C5x+W5Y+1NUHmAUY8V8QPMG/NURxbndgAMZm&#xD;&#xA;DGQW0db0BCH/c7RzL8T6dgwtHG+cz61bUD4vMBTKsJI6yLL5LqBq2sjrBlCoXOF3&#xD;&#xA;3ULdeAE8doHyJfxj0znPnZXvfwep19NExQrcrT6geA6qbRFXi2WJ31lAgFY0CqWz&#xD;&#xA;W8a54wMY+ynp5fF43oz+cBSpF/j9ZYXM76tQukMgvgxDR0V9hY7ZsPQiZnwJXPAE&#xD;&#xA;3zED1zO/9H9OM8jmTLSOjV4PbGocKT4Ggws7fB4Hv1nTNPnhCQTCTH2hHS6tOMU1&#xD;&#xA;ezoyHLbSGe1kK4nA6tf6U2b//W+8BB3T3prHDxEWAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
-      <image width="16" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath106)" preserveAspectRatio="none" font-weight="normal" height="16" font-family="'Segoe UI'" x="276" y="163" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0UlEQVR42sVTTUgb&#xD;&#xA;QRT+RkN7MMQSpRAJEQxIyRbUimDZm1BvIngRTx6E9tiT9FAKm6gH8WgvrdTSo5eC&#xD;&#xA;NOeChUTxh0h2IwgRSjDmoFJ2002iiXnOjGnMKuLBQ98wvH3v+77HmzezjIjwEGvC&#xD;&#xA;A83VGBzGYpT7NIcWpR+hdzPsJnlv/gPZqR343ryHX1WZowMp/hiBz34Ee3dTkm+K&#xD;&#xA;//K8wHOLEcl3dHCWSYNKF/D29sDLCMZGHIm3k+QZHIK18RPlTBZKrwrGsaNEXPKh&#xD;&#xA;qtcdBCcmmXvwJfT1NVStEpRgH7z5C5x+W5Y+1NUHmAUY8V8QPMG/NURxbndgAMZm&#xD;&#xA;DGQW0db0BCH/c7RzL8T6dgwtHG+cz61bUD4vMBTKsJI6yLL5LqBq2sjrBlCoXOF3&#xD;&#xA;3ULdeAE8doHyJfxj0znPnZXvfwep19NExQrcrT6geA6qbRFXi2WJ31lAgFY0CqWz&#xD;&#xA;W8a54wMY+ynp5fF43oz+cBSpF/j9ZYXM76tQukMgvgxDR0V9hY7ZsPQiZnwJXPAE&#xD;&#xA;3zED1zO/9H9OM8jmTLSOjV4PbGocKT4Ggws7fB4Hv1nTNPnhCQTCTH2hHS6tOMU1&#xD;&#xA;ezoyHLbSGe1kK4nA6tf6U2b//W+8BB3T3prHDxEWAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
-      <image width="16" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath107)" preserveAspectRatio="none" font-weight="normal" height="16" font-family="'Segoe UI'" x="276" y="186" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0UlEQVR42sVTTUgb&#xD;&#xA;QRT+RkN7MMQSpRAJEQxIyRbUimDZm1BvIngRTx6E9tiT9FAKm6gH8WgvrdTSo5eC&#xD;&#xA;NOeChUTxh0h2IwgRSjDmoFJ2002iiXnOjGnMKuLBQ98wvH3v+77HmzezjIjwEGvC&#xD;&#xA;A83VGBzGYpT7NIcWpR+hdzPsJnlv/gPZqR343ryHX1WZowMp/hiBz34Ee3dTkm+K&#xD;&#xA;//K8wHOLEcl3dHCWSYNKF/D29sDLCMZGHIm3k+QZHIK18RPlTBZKrwrGsaNEXPKh&#xD;&#xA;qtcdBCcmmXvwJfT1NVStEpRgH7z5C5x+W5Y+1NUHmAUY8V8QPMG/NURxbndgAMZm&#xD;&#xA;DGQW0db0BCH/c7RzL8T6dgwtHG+cz61bUD4vMBTKsJI6yLL5LqBq2sjrBlCoXOF3&#xD;&#xA;3ULdeAE8doHyJfxj0znPnZXvfwep19NExQrcrT6geA6qbRFXi2WJ31lAgFY0CqWz&#xD;&#xA;W8a54wMY+ynp5fF43oz+cBSpF/j9ZYXM76tQukMgvgxDR0V9hY7ZsPQiZnwJXPAE&#xD;&#xA;3zED1zO/9H9OM8jmTLSOjV4PbGocKT4Ggws7fB4Hv1nTNPnhCQTCTH2hHS6tOMU1&#xD;&#xA;ezoyHLbSGe1kK4nA6tf6U2b//W+8BB3T3prHDxEWAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
-      <image width="16" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath108)" preserveAspectRatio="none" font-weight="normal" height="16" font-family="'Segoe UI'" x="276" y="209" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0UlEQVR42sVTTUgb&#xD;&#xA;QRT+RkN7MMQSpRAJEQxIyRbUimDZm1BvIngRTx6E9tiT9FAKm6gH8WgvrdTSo5eC&#xD;&#xA;NOeChUTxh0h2IwgRSjDmoFJ2002iiXnOjGnMKuLBQ98wvH3v+77HmzezjIjwEGvC&#xD;&#xA;A83VGBzGYpT7NIcWpR+hdzPsJnlv/gPZqR343ryHX1WZowMp/hiBz34Ee3dTkm+K&#xD;&#xA;//K8wHOLEcl3dHCWSYNKF/D29sDLCMZGHIm3k+QZHIK18RPlTBZKrwrGsaNEXPKh&#xD;&#xA;qtcdBCcmmXvwJfT1NVStEpRgH7z5C5x+W5Y+1NUHmAUY8V8QPMG/NURxbndgAMZm&#xD;&#xA;DGQW0db0BCH/c7RzL8T6dgwtHG+cz61bUD4vMBTKsJI6yLL5LqBq2sjrBlCoXOF3&#xD;&#xA;3ULdeAE8doHyJfxj0znPnZXvfwep19NExQrcrT6geA6qbRFXi2WJ31lAgFY0CqWz&#xD;&#xA;W8a54wMY+ynp5fF43oz+cBSpF/j9ZYXM76tQukMgvgxDR0V9hY7ZsPQiZnwJXPAE&#xD;&#xA;3zED1zO/9H9OM8jmTLSOjV4PbGocKT4Ggws7fB4Hv1nTNPnhCQTCTH2hHS6tOMU1&#xD;&#xA;ezoyHLbSGe1kK4nA6tf6U2b//W+8BB3T3prHDxEWAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
-      <rect x="409" y="101" clip-path="url(#clipPath109)" fill="url(#linearGradient10)" width="150" rx="0" opacity="0.2549" ry="0" height="104" stroke="none" />
-      <rect x="410" y="102" clip-path="url(#clipPath109)" fill="url(#linearGradient10)" width="150" rx="0" opacity="0.2549" ry="0" height="104" stroke="none" />
-      <rect x="408" y="100" clip-path="url(#clipPath110)" fill="url(#linearGradient11)" width="150" rx="0" ry="0" height="104" stroke="none" />
-      <rect x="408" y="100" clip-path="url(#clipPath110)" fill="none" width="149" rx="0" ry="0" height="103" />
-      <image x="409" y="107" clip-path="url(#clipPath111)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
-      <text xml:space="preserve" x="428" y="124" clip-path="url(#clipPath112)" stroke="none">etAlertStatus</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath113)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="413" y="138" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="430" y="153" clip-path="url(#clipPath114)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">pending</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath115)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="413" y="161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="430" y="176" clip-path="url(#clipPath116)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">valid</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath117)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="413" y="184" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="430" y="199" clip-path="url(#clipPath118)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">invalid</text>
-      <line clip-path="url(#clipPath119)" fill="none" x1="409" x2="557" y1="132" y2="132" />
-      <rect x="549" y="101" clip-path="url(#clipPath120)" fill="url(#linearGradient11)" width="145" rx="0" opacity="0.2549" ry="0" height="104" stroke="none" />
-      <rect x="550" y="102" clip-path="url(#clipPath120)" fill="url(#linearGradient11)" width="145" rx="0" opacity="0.2549" ry="0" height="104" stroke="none" />
-      <rect x="548" y="100" clip-path="url(#clipPath121)" fill="url(#linearGradient12)" width="145" rx="0" ry="0" height="104" stroke="none" />
-      <rect x="548" y="100" clip-path="url(#clipPath121)" fill="none" width="144" rx="0" ry="0" height="103" />
-      <image x="549" y="107" clip-path="url(#clipPath122)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
-      <text xml:space="preserve" x="568" y="124" clip-path="url(#clipPath123)" stroke="none">etCrisisType</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath124)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="553" y="138" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="570" y="153" clip-path="url(#clipPath125)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">small</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath126)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="553" y="161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="570" y="176" clip-path="url(#clipPath127)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">medium</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath128)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="553" y="184" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="570" y="199" clip-path="url(#clipPath129)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">huge</text>
-      <line clip-path="url(#clipPath130)" fill="none" x1="549" x2="692" y1="132" y2="132" />
-      <rect x="570" y="216" clip-path="url(#clipPath131)" fill="url(#linearGradient12)" width="129" rx="0" opacity="0.2549" ry="0" height="126" stroke="none" />
-      <rect x="571" y="217" clip-path="url(#clipPath131)" fill="url(#linearGradient12)" width="129" rx="0" opacity="0.2549" ry="0" height="126" stroke="none" />
-      <rect x="569" y="215" clip-path="url(#clipPath132)" fill="url(#linearGradient13)" width="129" rx="0" ry="0" height="126" stroke="none" />
-      <rect x="569" y="215" clip-path="url(#clipPath132)" fill="none" width="128" rx="0" ry="0" height="125" />
-      <image x="572" y="233" clip-path="url(#clipPath133)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
-      <text xml:space="preserve" x="591" y="239" clip-path="url(#clipPath134)" stroke="none">etHumanK</text>
-      <text xml:space="preserve" x="591" y="261" clip-path="url(#clipPath135)" stroke="none">ind</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath136)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="574" y="275" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="591" y="290" clip-path="url(#clipPath137)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">witness</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath138)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="574" y="298" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="591" y="313" clip-path="url(#clipPath139)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">victim</text>
-      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath140)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Tahoma'" x="574" y="321" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
-      <text x="591" y="336" clip-path="url(#clipPath141)" font-family="'Tahoma'" stroke="none" font-weight="normal" xml:space="preserve">anonymous</text>
-      <line clip-path="url(#clipPath142)" fill="none" x1="570" x2="697" y1="269" y2="269" />
-      <rect x="11" y="217" clip-path="url(#clipPath143)" fill="url(#linearGradient13)" width="219" rx="0" opacity="0.2549" ry="0" height="84" stroke="none" />
-      <rect x="12" y="218" clip-path="url(#clipPath143)" fill="url(#linearGradient13)" width="219" rx="0" opacity="0.2549" ry="0" height="84" stroke="none" />
-      <rect x="10" y="216" clip-path="url(#clipPath144)" fill="url(#linearGradient14)" width="219" rx="0" ry="0" height="84" stroke="none" />
-      <rect x="10" y="216" clip-path="url(#clipPath144)" fill="none" width="218" rx="0" ry="0" height="83" />
-      <image x="11" y="244" clip-path="url(#clipPath145)" width="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAA2klEQVR42mNgoAJg&#xD;&#xA;hNJMQNwNxFFALEGk3n9AvByI42CGLAFiZSAOAeKnRBoiDcRrgPgYTOAvVJBUANLz&#xD;&#xA;nAXJOyAX9ACxExC/AmJxIN4AxKuBuA+I2YDYEIhPAvF7II6E6pFgwWJ6AxBvAmKQ&#xD;&#xA;3Fkg7gViD6iha6BsFMCEx6l/gPglEIsR8hM2l4CcaQTEGtCwukeOIVehIb4SiK8T&#xD;&#xA;E7rYDLkExPtIiSImaqRYdJeU4FELCmRbfC55QUFi+8cM5UgBcTEQ7wDizyQm+0PI&#xD;&#xA;GXARNHqJDSeQ65cBcSkAA3YoQmmFTpIAAAAASUVORK5CYII=" xlink:type="simple" xlink:actuate="onLoad" height="15" preserveAspectRatio="none" xlink:show="embed" />
-      <text xml:space="preserve" x="31" y="227" clip-path="url(#clipPath146)" stroke="none">  </text>
-      <text xml:space="preserve" x="31" y="249" clip-path="url(#clipPath147)" stroke="none">ptBoolean</text>
-      <text xml:space="preserve" x="31" y="271" clip-path="url(#clipPath148)" stroke="none">(lu.uni.lassy.messir.</text>
-      <text xml:space="preserve" x="31" y="293" clip-path="url(#clipPath148)" stroke="none">libraries.primitiv...</text>
-      <line clip-path="url(#clipPath149)" fill="none" x1="11" x2="228" y1="287" y2="287" />
-      <image width="27" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath150)" preserveAspectRatio="none" font-weight="normal" height="21" font-family="'Segoe UI'" x="201" y="217" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAdUlEQVR42u3UOQ7A&#xD;&#xA;IAwEQOz3+bn+XyKKNJHiazcd24I08gFrnRAinctmdlXuubvAWAX8gsoYWtETZc0j&#xD;&#xA;g2hYBUrbGLVvA/u8CoVYBk06oN02TaF0A6tbSKuMCSrzncHf1RtCZgb9IF1YOguD&#xD;&#xA;gjLd1F+fwkmUG4cGOBSAuvplAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
-      <rect x="11" y="128" clip-path="url(#clipPath151)" fill="url(#linearGradient14)" width="198" rx="0" opacity="0.2549" ry="0" height="69" stroke="none" />
-      <rect x="12" y="129" clip-path="url(#clipPath151)" fill="url(#linearGradient14)" width="198" rx="0" opacity="0.2549" ry="0" height="69" stroke="none" />
-      <rect x="10" y="127" clip-path="url(#clipPath152)" fill="url(#linearGradient15)" width="198" rx="0" ry="0" height="69" stroke="none" />
-      <rect x="10" y="127" clip-path="url(#clipPath152)" fill="none" width="197" rx="0" ry="0" height="68" />
-      <image x="23" y="147" clip-path="url(#clipPath153)" width="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAA2klEQVR42mNgoAJg&#xD;&#xA;hNJMQNwNxFFALEGk3n9AvByI42CGLAFiZSAOAeKnRBoiDcRrgPgYTOAvVJBUANLz&#xD;&#xA;nAXJOyAX9ACxExC/AmJxIN4AxKuBuA+I2YDYEIhPAvF7II6E6pFgwWJ6AxBvAmKQ&#xD;&#xA;3Fkg7gViD6iha6BsFMCEx6l/gPglEIsR8hM2l4CcaQTEGtCwukeOIVehIb4SiK8T&#xD;&#xA;E7rYDLkExPtIiSImaqRYdJeU4FELCmRbfC55QUFi+8cM5UgBcTEQ7wDizyQm+0PI&#xD;&#xA;GXARNHqJDSeQ65cBcSkAA3YoQmmFTpIAAAAASUVORK5CYII=" xlink:type="simple" xlink:actuate="onLoad" height="15" preserveAspectRatio="none" xlink:show="embed" />
-      <text xml:space="preserve" x="43" y="130" clip-path="url(#clipPath154)" stroke="none">  </text>
-      <text xml:space="preserve" x="43" y="152" clip-path="url(#clipPath155)" stroke="none">ptString</text>
-      <text xml:space="preserve" x="43" y="174" clip-path="url(#clipPath156)" stroke="none">(lu.uni.lassy.</text>
-      <text xml:space="preserve" x="43" y="196" clip-path="url(#clipPath156)" stroke="none">messir.librari...</text>
-      <line clip-path="url(#clipPath157)" fill="none" x1="11" x2="207" y1="183" y2="183" />
-      <image width="27" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath158)" preserveAspectRatio="none" font-weight="normal" height="21" font-family="'Segoe UI'" x="180" y="128" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAdUlEQVR42u3UOQ7A&#xD;&#xA;IAwEQOz3+bn+XyKKNJHiazcd24I08gFrnRAinctmdlXuubvAWAX8gsoYWtETZc0j&#xD;&#xA;g2hYBUrbGLVvA/u8CoVYBk06oN02TaF0A6tbSKuMCSrzncHf1RtCZgb9IF1YOguD&#xD;&#xA;gjLd1F+fwkmUG4cGOBSAuvplAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
+      <rect x="409" y="101" clip-path="url(#clipPath105)" fill="url(#linearGradient10)" width="150" rx="0" opacity="0.2549" ry="0" height="110" stroke="none" />
+      <rect x="410" y="102" clip-path="url(#clipPath105)" fill="url(#linearGradient10)" width="150" rx="0" opacity="0.2549" ry="0" height="110" stroke="none" />
+      <rect x="408" y="100" clip-path="url(#clipPath106)" fill="url(#linearGradient11)" width="150" rx="0" ry="0" height="110" stroke="none" />
+      <rect x="408" y="100" clip-path="url(#clipPath106)" fill="none" width="149" rx="0" ry="0" height="109" />
+      <image x="409" y="107" clip-path="url(#clipPath107)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
+      <text xml:space="preserve" x="428" y="124" clip-path="url(#clipPath108)" stroke="none">etAlertStatus</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath109)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="413" y="139" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="430" y="155" clip-path="url(#clipPath110)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">pending</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath111)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="413" y="164" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="430" y="180" clip-path="url(#clipPath112)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">valid</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath113)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="413" y="189" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="430" y="205" clip-path="url(#clipPath114)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">invalid</text>
+      <line clip-path="url(#clipPath115)" fill="none" x1="409" x2="557" y1="132" y2="132" />
+      <rect x="549" y="101" clip-path="url(#clipPath116)" fill="url(#linearGradient11)" width="145" rx="0" opacity="0.2549" ry="0" height="135" stroke="none" />
+      <rect x="550" y="102" clip-path="url(#clipPath116)" fill="url(#linearGradient11)" width="145" rx="0" opacity="0.2549" ry="0" height="135" stroke="none" />
+      <rect x="548" y="100" clip-path="url(#clipPath117)" fill="url(#linearGradient12)" width="145" rx="0" ry="0" height="135" stroke="none" />
+      <rect x="548" y="100" clip-path="url(#clipPath117)" fill="none" width="144" rx="0" ry="0" height="134" />
+      <image x="549" y="107" clip-path="url(#clipPath118)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
+      <text xml:space="preserve" x="568" y="124" clip-path="url(#clipPath119)" stroke="none">etCrisisType</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath120)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="553" y="139" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="570" y="155" clip-path="url(#clipPath121)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">critical</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath122)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="553" y="164" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="570" y="180" clip-path="url(#clipPath123)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">low</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath124)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="553" y="189" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="570" y="205" clip-path="url(#clipPath125)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">high</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath126)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="553" y="214" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="570" y="230" clip-path="url(#clipPath127)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">medium</text>
+      <line clip-path="url(#clipPath128)" fill="none" x1="549" x2="692" y1="132" y2="132" />
+      <rect x="570" y="216" clip-path="url(#clipPath129)" fill="url(#linearGradient12)" width="129" rx="0" opacity="0.2549" ry="0" height="132" stroke="none" />
+      <rect x="571" y="217" clip-path="url(#clipPath129)" fill="url(#linearGradient12)" width="129" rx="0" opacity="0.2549" ry="0" height="132" stroke="none" />
+      <rect x="569" y="215" clip-path="url(#clipPath130)" fill="url(#linearGradient13)" width="129" rx="0" ry="0" height="132" stroke="none" />
+      <rect x="569" y="215" clip-path="url(#clipPath130)" fill="none" width="128" rx="0" ry="0" height="131" />
+      <image x="572" y="233" clip-path="url(#clipPath131)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAyklEQVR42mNgoBAw&#xD;&#xA;QmkmIO4G4iggliBC3z8gXg7EcTADlgCxMhCHAPFTIgyQBuI1QHwMJvAXKkgKAKl/&#xD;&#xA;zoTkhackGgBSL8GCJGABxLuA+BaS2FEgNgdikDp5IP4MxO+A+CQQZzNAJZDBCSB2&#xD;&#xA;w2HjTCA+AA08OGCiNBrRXWACxPuR+FOhoU20AWfweAEroLoXLKCugIHTQJxJrAGg&#xD;&#xA;GODDozadJl6AGfCCzKT8jxnKkQLiYiDeAU1txGamQ8jZeREQRxLpLZCLlwFxKQAk&#xD;&#xA;OSNe1SuZaAAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="17" preserveAspectRatio="none" xlink:show="embed" />
+      <text xml:space="preserve" x="591" y="239" clip-path="url(#clipPath132)" stroke="none">etHumanK</text>
+      <text xml:space="preserve" x="591" y="261" clip-path="url(#clipPath133)" stroke="none">ind</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath134)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="574" y="276" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="591" y="292" clip-path="url(#clipPath135)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">witness</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath136)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="574" y="301" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="591" y="317" clip-path="url(#clipPath137)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">victim</text>
+      <image width="14" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath138)" preserveAspectRatio="none" font-weight="normal" height="14" font-family="'Segoe UI'" x="574" y="326" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABsklEQVR42mNgIBMw&#xD;&#xA;InP+///PqDM1PIufnSf+86/vGiAxXjbOGx9/fll4NWfVVKwataeG8nAycx1UFJDU&#xD;&#xA;zDQL5tQSUwKLX3t1j2H6qbXfn395c+xIyhwXmHpmGEPATeNnlK672CTvEjZFQSkG&#xD;&#xA;HjZOMAaxQ3VcWLfeOqIg7Kll92jTuUVwjdpTwrKVBKSdp/tVsOLyU7iOK+OO28cl&#xD;&#xA;GR2kPrzedvU0C0gQ5KcSmxh2EPv9j88MFbsmM1x8eQfkaQZrOX2GHo98oJ8YGUBe&#xD;&#xA;qNk7PR6obCoTSDEoIGB+uvXmIYM4jzDD/sTpDDX2SQybbx5muP/+GVgOpAYWaCzo&#xD;&#xA;ThLhEmB4+fUdQ/y6BqCNELHff/9gOJ0JFuSg0AOBOec2Mjz99IphVVg7Q5yBF4pi&#xD;&#xA;kBqQWrhGUDyBghzEtpM3ZHjw/jmD26JchhVXdoM1fPr1FUz3HFnyE6QW7tQr2Sun&#xD;&#xA;mc5MSOo4vFC/wjae2V7BiOHPv78MfOzccNvaDs3/c/vdY/bbBeumYiSAX7//flYV&#xD;&#xA;kv0JCmH0BPDg44vr3/58tb+avfoLRpKDxSm2JAdyFSMj438GSgEADY+7RSdBNBAA&#xD;&#xA;AAAASUVORK5CYII=" xlink:actuate="onLoad" />
+      <text x="591" y="342" clip-path="url(#clipPath139)" font-family="'Segoe UI'" stroke="none" font-weight="normal" xml:space="preserve">anonymous</text>
+      <line clip-path="url(#clipPath140)" fill="none" x1="570" x2="697" y1="269" y2="269" />
+      <rect x="11" y="217" clip-path="url(#clipPath141)" fill="url(#linearGradient13)" width="219" rx="0" opacity="0.2549" ry="0" height="84" stroke="none" />
+      <rect x="12" y="218" clip-path="url(#clipPath141)" fill="url(#linearGradient13)" width="219" rx="0" opacity="0.2549" ry="0" height="84" stroke="none" />
+      <rect x="10" y="216" clip-path="url(#clipPath142)" fill="url(#linearGradient14)" width="219" rx="0" ry="0" height="84" stroke="none" />
+      <rect x="10" y="216" clip-path="url(#clipPath142)" fill="none" width="218" rx="0" ry="0" height="83" />
+      <image x="11" y="244" clip-path="url(#clipPath143)" width="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAA2klEQVR42mNgoAJg&#xD;&#xA;hNJMQNwNxFFALEGk3n9AvByI42CGLAFiZSAOAeKnRBoiDcRrgPgYTOAvVJBUANLz&#xD;&#xA;nAXJOyAX9ACxExC/AmJxIN4AxKuBuA+I2YDYEIhPAvF7II6E6pFgwWJ6AxBvAmKQ&#xD;&#xA;3Fkg7gViD6iha6BsFMCEx6l/gPglEIsR8hM2l4CcaQTEGtCwukeOIVehIb4SiK8T&#xD;&#xA;E7rYDLkExPtIiSImaqRYdJeU4FELCmRbfC55QUFi+8cM5UgBcTEQ7wDizyQm+0PI&#xD;&#xA;GXARNHqJDSeQ65cBcSkAA3YoQmmFTpIAAAAASUVORK5CYII=" xlink:type="simple" xlink:actuate="onLoad" height="15" preserveAspectRatio="none" xlink:show="embed" />
+      <text xml:space="preserve" x="31" y="227" clip-path="url(#clipPath144)" stroke="none">  </text>
+      <text xml:space="preserve" x="31" y="249" clip-path="url(#clipPath145)" stroke="none">ptBoolean</text>
+      <text xml:space="preserve" x="31" y="271" clip-path="url(#clipPath146)" stroke="none">(lu.uni.lassy.messir.</text>
+      <text xml:space="preserve" x="31" y="293" clip-path="url(#clipPath146)" stroke="none">libraries.primitiv...</text>
+      <line clip-path="url(#clipPath147)" fill="none" x1="11" x2="228" y1="287" y2="287" />
+      <image width="27" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath148)" preserveAspectRatio="none" font-weight="normal" height="21" font-family="'Segoe UI'" x="201" y="217" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAdUlEQVR42u3UOQ7A&#xD;&#xA;IAwEQOz3+bn+XyKKNJHiazcd24I08gFrnRAinctmdlXuubvAWAX8gsoYWtETZc0j&#xD;&#xA;g2hYBUrbGLVvA/u8CoVYBk06oN02TaF0A6tbSKuMCSrzncHf1RtCZgb9IF1YOguD&#xD;&#xA;gjLd1F+fwkmUG4cGOBSAuvplAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
+      <rect x="11" y="128" clip-path="url(#clipPath149)" fill="url(#linearGradient14)" width="198" rx="0" opacity="0.2549" ry="0" height="69" stroke="none" />
+      <rect x="12" y="129" clip-path="url(#clipPath149)" fill="url(#linearGradient14)" width="198" rx="0" opacity="0.2549" ry="0" height="69" stroke="none" />
+      <rect x="10" y="127" clip-path="url(#clipPath150)" fill="url(#linearGradient15)" width="198" rx="0" ry="0" height="69" stroke="none" />
+      <rect x="10" y="127" clip-path="url(#clipPath150)" fill="none" width="197" rx="0" ry="0" height="68" />
+      <image x="23" y="147" clip-path="url(#clipPath151)" width="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAA2klEQVR42mNgoAJg&#xD;&#xA;hNJMQNwNxFFALEGk3n9AvByI42CGLAFiZSAOAeKnRBoiDcRrgPgYTOAvVJBUANLz&#xD;&#xA;nAXJOyAX9ACxExC/AmJxIN4AxKuBuA+I2YDYEIhPAvF7II6E6pFgwWJ6AxBvAmKQ&#xD;&#xA;3Fkg7gViD6iha6BsFMCEx6l/gPglEIsR8hM2l4CcaQTEGtCwukeOIVehIb4SiK8T&#xD;&#xA;E7rYDLkExPtIiSImaqRYdJeU4FELCmRbfC55QUFi+8cM5UgBcTEQ7wDizyQm+0PI&#xD;&#xA;GXARNHqJDSeQ65cBcSkAA3YoQmmFTpIAAAAASUVORK5CYII=" xlink:type="simple" xlink:actuate="onLoad" height="15" preserveAspectRatio="none" xlink:show="embed" />
+      <text xml:space="preserve" x="43" y="130" clip-path="url(#clipPath152)" stroke="none">  </text>
+      <text xml:space="preserve" x="43" y="152" clip-path="url(#clipPath153)" stroke="none">ptString</text>
+      <text xml:space="preserve" x="43" y="174" clip-path="url(#clipPath154)" stroke="none">(lu.uni.lassy.</text>
+      <text xml:space="preserve" x="43" y="196" clip-path="url(#clipPath154)" stroke="none">messir.librari...</text>
+      <line clip-path="url(#clipPath155)" fill="none" x1="11" x2="207" y1="183" y2="183" />
+      <image width="27" xlink:show="embed" xlink:type="simple" clip-path="url(#clipPath156)" preserveAspectRatio="none" font-weight="normal" height="21" font-family="'Segoe UI'" x="180" y="128" font-size="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAdUlEQVR42u3UOQ7A&#xD;&#xA;IAwEQOz3+bn+XyKKNJHiazcd24I08gFrnRAinctmdlXuubvAWAX8gsoYWtETZc0j&#xD;&#xA;g2hYBUrbGLVvA/u8CoVYBk06oN02TaF0A6tbSKuMCSrzncHf1RtCZgb9IF1YOguD&#xD;&#xA;gjLd1F+fwkmUG4cGOBSAuvplAAAAAElFTkSuQmCC" xlink:actuate="onLoad" />
     </g>
   </g>
 </svg>

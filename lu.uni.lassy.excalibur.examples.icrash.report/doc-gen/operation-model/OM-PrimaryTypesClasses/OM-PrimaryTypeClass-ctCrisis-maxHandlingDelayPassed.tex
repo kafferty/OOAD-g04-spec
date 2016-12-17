@@ -22,10 +22,56 @@ The \msrcode{maxHandlingDelayPassed} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-ctCrisis-maxHandlingDelayPassed-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{maxHandlingDelayPassed}.},label=OM-ctCrisis-maxHandlingDelayPassed-MCL-LST]
+
+	
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem:ctState in
+	let CurrentClockSecondsQty:dtInteger in
+	let CrisisInstantSecondsQty:dtInteger in
+	let MaxCrisisReminderPeriod:dtSecond in
+	if 
+	( /* Post F01 */
+	  self.rnSystem = TheSystem
+	  and self.status = pending
+	  and TheSystem.clock.toSecondsQty() = CurrentClockSecondsQty
+	  and Self.instant.toSecondsQty() = CrisisInstantSecondsQty
+	  and TheSystem.maxCrisisReminderPeriod = MaxCrisisReminderPeriod
+	  and CurrentClockSecondsQty.sub(CrisisInstantSecondsQty)
+	                            .gt(MaxCrisisReminderPeriod)
+	)
+	then (result = true)
+	else (result = false)
+	endif}
+	
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-ctCrisis-maxHandlingDelayPassed-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{maxHandlingDelayPassed}.},label=OM-ctCrisis-maxHandlingDelayPassed-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Concepts/PrimaryTypesClasses/PrimaryTypesClasses-ctCrisis-maxHandlingDelayPassed.pl}
+	\normalsize
 
 
 

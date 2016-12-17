@@ -36,5 +36,38 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts04oeAddCoordinator-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts04oeAddCoordinator}.},label=TM-testcase01-ts04oeAddCoordinator-MCL-LST]
+
+	variables{
+		TheActor : actAdministrator
+		AdtCoordinatorID : dtCoordinatorID
+		AdtLogin:dtLogin
+		AdtPassword:dtPassword
+	}
+	
+	constraints{
+		TheActor = TheSystem.rnactAdministrator->any2(true)
+		AdtCoordinatorID.value.eq('1')
+		AdtLogin.value.eq('steve')
+		AdtPassword.value.eq('pwdMessirExcalibur2017')
+	}
+	
+	oracle{
+		constraints{
+			TheActor.inactAdministrator.ieCoordinatorAdded()
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

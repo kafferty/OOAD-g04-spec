@@ -29,10 +29,70 @@ The \msrcode{oeLogout} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actAuthenticated-oeLogout-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeLogout}.},label=OM-actAuthenticated-oeLogout-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+	  let TheActor:actAdministrator in
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor = TheActor
+	  
+	/* PreP01 */
+	  and TheSystem.vpStarted = true
+	/* PreP02 */
+	  and TheActor.rnctAuthenticated.vpIsLogged = true}
+	
+	/* Pre Functional:*/
+	preF{/* PreF01 */
+	true}
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+	  let TheactAuthenticated:actAuthenticated in
+	  let AptStringMessageForTheactAuthenticated: ptString in
+	  
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor = TheactAuthenticated
+	  
+	  /* PostF01 */
+	  AptStringMessageForTheactAuthenticated.eq('You are logged out ! Good Bye ...')
+	  and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)}
+	
+	/* Post Protocol:*/ 
+	postP{ let TheSystem: ctState in
+	  let TheactAuthenticated:actAuthenticated in
+	
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor = TheactAuthenticated.asSet
+	/* PostP01 */
+	  TheactAuthenticated.rnctAuthenticated@post.vpIsLogged = false}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-actAuthenticated-oeLogout-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{oeLogout}.},label=OM-actAuthenticated-oeLogout-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Environment/OUT/outactAuthenticated-oeLogout.pl}
+	\normalsize
 
 
 

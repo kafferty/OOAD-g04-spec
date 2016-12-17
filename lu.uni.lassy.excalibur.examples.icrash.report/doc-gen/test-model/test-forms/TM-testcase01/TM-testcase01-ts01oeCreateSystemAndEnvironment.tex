@@ -33,5 +33,45 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts01oeCreateSystemAndEnvironment-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
 	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts01oeCreateSystemAndEnvironment}.},label=TM-testcase01-ts01oeCreateSystemAndEnvironment-MCL-LST]
+
+	variables{
+		Creator:actMsrCreator
+		AqtyComCompanies: ptInteger
+	}
+	
+	constraints{
+		AqtyComCompanies = 4
+	}
+	
+	oracle{
+		constraints{
+			true
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
+	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts01oeCreateSystemAndEnvironment-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the test step \emph{testcase01-ts01oeCreateSystemAndEnvironment}.},label=TM-testcase01-ts01oeCreateSystemAndEnvironment-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Tests/system/01/system-sim-01-01-oeCreateSystemAndEnvironment.pl}
+	\normalsize
 	

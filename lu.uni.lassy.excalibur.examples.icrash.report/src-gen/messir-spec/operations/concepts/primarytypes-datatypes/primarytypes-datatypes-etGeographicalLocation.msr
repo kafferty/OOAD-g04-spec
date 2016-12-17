@@ -13,10 +13,10 @@ import lu.uni.lassy.messir.libraries.primitives
         let TheResult: ptBoolean in
         ( if
           ( self = central
-            or self = southern
-            or self = eastern
-            or self = western
-            or self = nothern
+            or self = southEastern
+            or self = southWestern
+            or self = northEastern
+            or self = northWestern
           )
           then (TheResult = true)
           else (TheResult = false)
@@ -24,6 +24,7 @@ import lu.uni.lassy.messir.libraries.primitives
           result = TheResult
         )
         }
+     //   prolog{"src/Operations/Concepts/PrimaryTypesClasses/PrimaryTypesDatatypes-etGeographicalLocation-is.pl"}
 }
 	}
 

@@ -32,10 +32,90 @@ The \msrcode{oeSollicitateCrisisHandling} operation has the following properties
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actActivator-oeSollicitateCrisisHandling-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeSollicitateCrisisHandling}.},label=OM-actActivator-oeSollicitateCrisisHandling-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+	  let AvpStarted: ptBoolean in
+	  let ColctCrisisToHandle:
+	        Bag(ctCrisis) in
+	  
+	  self.rnActor.rnSystem = TheSystem
+	    
+	/* PreP01 */
+	  and TheSystem.vpStarted
+	  
+	/* PreP02 */
+	  and TheSystem.rnctCrisis->select(handlingDelayPassed()) 
+	      = ColctCrisisToHandle
+	  and ColctCrisisToHandle->size().geq(1)}
+	
+	/* Pre Functional:*/
+	preF{true}
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+	  let AMessageForCrisisHandlers: dtComment in
+	  let ColctCrisisToAllocateIfPossible:Bag(ctCrisis) in
+	  
+	  self.rnActor.rnSystem = TheSystem
+	/* PostF01 */
+	  and TheSystem.rnctCrisis->select(maxHandlingDelayPassed())
+	      = ColctCrisisToAllocateIfPossible
+	  and  ColctCrisisToAllocateIfPossible->forAll(isAllocatedIfPossible())
+	
+	 /* PostF02 */
+	  and TheSystem.rnctCrisis->select(handlingDelayPassed())
+	  = ColctCrisisToHandle
+	  
+	  and ColctCrisisToHandle->msrColSubtract(ColctCrisisToAllocateIfPossible)
+	      = ColctCrisisToRemind
+	      
+	  and if (ColctCrisisToRemind->size().geq(1))
+	      then (AMessageForCrisisHandlers.value
+	            ='There are alerts pending since more than the defined delay. Please REACT !'
+	            and TheSystem.rnactAdministrator.
+	                rnInterfaceIN^ieMessage(AMessageForCrisisHandlers)
+	                and TheSystem.rnactCoordinator
+	                    ->forAll(rnInterfaceIN^ieMessage(AMessageForCrisisHandlers))
+	            )
+	      else true
+	      endif}
+	
+	/* Post Protocol:*/ 
+	postP{ let TheSystem: ctState in
+	  let TheClock: dtDateAndTime in
+	  
+	  self.rnActor.rnSystem = TheSystem
+	  and TheSystem.clock = TheClock
+	  and TheSystem@post.vpLastReminder = TheClock}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-actActivator-oeSollicitateCrisisHandling-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{oeSollicitateCrisisHandling}.},label=OM-actActivator-oeSollicitateCrisisHandling-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Environment/OUT/outactActivator-oeSollicitateCrisisHandling.pl}
+	\normalsize
 
 
 

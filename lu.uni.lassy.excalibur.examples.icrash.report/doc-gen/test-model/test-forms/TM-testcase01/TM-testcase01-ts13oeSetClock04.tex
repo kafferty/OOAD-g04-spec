@@ -34,5 +34,39 @@
 	
 	
 	
+		
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{TM-testcase01-ts13oeSetClock04-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the test step.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the test step \emph{testcase01-ts13oeSetClock04}.},label=TM-testcase01-ts13oeSetClock04-MCL-LST]
+
+	variables{
+		TheActor:actActivator
+		ACurrentClock:dtDateAndTime
+	}
+	
+	constraints{
+		TheActor=TheSystem.rnactActivator->any2(true)
+		ACurrentClock.date.year.value = 2017
+		ACurrentClock.date.month.value = 11
+		ACurrentClock.date.day.value = 26
+		ACurrentClock.time.hour.value = 10
+		ACurrentClock.time.minute.value = 45
+		ACurrentClock.time.second.value = 00
+	}
+	
+	oracle{
+		constraints{
+			true
+		}
+	}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	

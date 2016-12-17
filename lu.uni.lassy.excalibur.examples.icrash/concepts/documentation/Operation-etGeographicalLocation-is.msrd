@@ -10,7 +10,5 @@ icrash.concepts.primarytypes.datatypes.etGeographicalLocation.is
 "used to determine which litteral belongs to the enumeration."
 //postFunctional descriptions
 @postF 
-"true iff the value is equal to one of the following values: \msrcode{central, south_western, north_western, south_eastern, north_eastern}."
+"true iff the value is equal to one of the following values: \msrcode{central, southWestern, northWestern, southEastern, northEastern}"
 @endPostF
-//example
-@example" "

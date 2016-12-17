@@ -35,10 +35,94 @@ The \msrcode{oeLogin} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actAuthenticated-oeLogin-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeLogin}.},label=OM-actAuthenticated-oeLogin-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+	  let TheActor:actAuthenticated in
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor = TheActor
+	  
+	/* PreP01 */
+	  and TheSystem.vpStarted = true
+	/* PreP02 */
+	  and TheActor.rnctAuthenticated.vpIsLogged = false
+	  and TheActor.rnctAuthenticated.vpIsLoggedStep1 = false}
+	
+	/* Pre Functional:*/
+	preF{/* PreF01 */
+	true}
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+	  let TheactAuthenticated:actAuthenticated in
+	
+	  let AptStringMessageForTheactAuthenticated: ptString in
+	  let AptStringMessageForTheactAdministrator:ptString in
+	  
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor = TheactAuthenticated
+	  
+	  and /* PostF01 */
+	      if (TheactAuthenticated.rnctAuthenticated.pwd
+	          = AdtPassword
+	          and TheactAuthenticated.rnctAuthenticated.login
+	              = AdtLogin
+	         )
+	      then (AptStringMessageForTheactAuthenticated.eq('Login and Password are correct ...')
+	            and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
+	            and TheSystem.rnactComCompany.rnInterfaceIN^ieSmsSend()
+	           )
+	      else (AptStringMessageForTheactAuthenticated
+	            .eq('Wrong identification information ! Please try again ...')
+	            and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
+	            and AptStringMessageForTheactAdministrator.eq('Intrusion tentative !')
+	            and TheSystem.rnactAdministrator
+	                .rnInterfaceIN^ieMessage(AptStringMessageForTheactAdministrator)
+	           )
+	      endif}
+	
+	/* Post Protocol:*/ 
+	postP{ let TheSystem: ctState in
+	  	let TheactAuthenticated:actAuthenticated in
+	
+	  	self.rnActor.rnSystem = TheSystem
+	  	and self.rnActor = TheactAuthenticated
+		if (TheactAuthenticated.rnctAuthenticated.pwd
+	          = AdtPassword
+	          and TheactAuthenticated.rnctAuthenticated.login
+	              = AdtLogin
+	         )
+	 	then (TheactAuthenticated.rnctAuthenticated@post.vpIsLoggedStep1 = true)
+	 	else false
+	 	endif}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	
 	
+	% ------------------------------------------
+	% PROLOG Listing
+	% ------------------------------------------
+	
+	\vspace{1cm}
+	The listing~\ref{OM-actAuthenticated-oeLogin-PROLOG-LST} provides the \msrmessir (Prolog-oriented) implementation of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	
+	\lstinputlisting[style=MessirPrologStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (Prolog-oriented) implementation of the operation \emph{oeLogin}.},label=OM-actAuthenticated-oeLogin-PROLOG-LST]{../lu.uni.lassy.excalibur.examples.icrash.simulation/src/Operations/Environment/OUT/outactAuthenticated-oeLogin.pl}
+	\normalsize
 
 
 

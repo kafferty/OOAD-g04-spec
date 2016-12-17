@@ -45,7 +45,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute longitude: dtLongitude
 				operation is():ptBoolean			
 				operation isNearTo(AGPSLocation:dtGPSLocation ):ptBoolean
-				operation getGeographicalLocation(aDtLatitude:dtLatitude, aDtLongitude: dtLongitude):etGeographicalLocation
+				operation getGeographicalLocation(EtGeographicalLocation:etGeographicalLocation):ptBoolean
 			}
 			
 			enum etCrisisStatus {
@@ -61,7 +61,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation is():ptBoolean
 			}
 			enum etGeographicalLocation {
-			 	constants["central", "south_eastern", "north_eastern", "south_western", "north_western"]
+			 	constants["central", "southEastern", "northEastern", "southWestern", "northWestern"]
 				operation is():ptBoolean
 			}
 			enum etHumanKind {

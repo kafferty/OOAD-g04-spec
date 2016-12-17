@@ -1,0 +1,35 @@
+\subsection{Operation Model for getGeographicalLocation}
+
+\label{OM-getGeographicalLocation}
+
+
+The \msrcode{getGeographicalLocation} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{getGeographicalLocation}{method which defines if the given geographical location equals to the crisis/alert georaphical location}
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{EtGeographicalLocation: etGeographicalLocation}{the given geographical location of a coodrdinator expertise domaine} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+		
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{according to distance between the center of the current city(Saint-Petersburg) and coordinate which is measured with the help of latitude and longitude the method defines the geographical location of a crisis or an alert. Then this geographical location is compared with the given geograpical location}
+
+	\end{operationmodel}
+
+
+
+	
+	
+	
+	
+
+
+
+
+

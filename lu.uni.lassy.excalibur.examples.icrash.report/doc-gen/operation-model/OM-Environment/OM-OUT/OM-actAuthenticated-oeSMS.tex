@@ -34,6 +34,63 @@ The \msrcode{oeSMS} operation has the following properties:
 
 
 
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actAuthenticated-oeSMS-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeSMS}.},label=OM-actAuthenticated-oeSMS-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+	  		let TheActor:actAuthenticated in
+	  		self.rnActor.rnSystem = TheSystem
+	  		and self.rnActor = TheActor
+			/* PreP01 */
+	  		and TheSystem.vpStarted = true
+			/* PreP02 */
+	  		and TheActor.rnctAuthenticated.vpIsLogged = false
+	  		and TheActor.rnctAuthencitated.vpIsloggedStep1 = true}
+	
+	/* Pre Functional:*/
+	preF{true}
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+	  		let TheactAuthenticated:actAuthenticated in
+	
+	  		let AptStringMessageForTheactAuthenticated: ptString in
+	  		let AptStringMessageForTheactAdministrator:ptString in
+	  
+	  		self.rnActor.rnSystem = TheSystem
+	  		and self.rnActor = TheactAuthenticated
+	  
+	  		and /* PostF01 */
+	      		if (TheactAuthenticated.rnctAuthenticated.smscode
+	          		= smsCode)	
+	      		then (AptStringMessageForTheactAuthenticated.eq('You are logged ! Welcome ...')
+	            and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
+	           	)
+	        	else false
+	        	endif}
+	
+	/* Post Protocol:*/ 
+	postP{ let TheSystem: ctState in
+	  let TheactAuthenticated:actAuthenticated in
+	
+	  self.rnActor.rnSystem = TheSystem
+	  and self.rnActor = TheactAuthenticated
+	/* PostP01 */
+	  if (TheactAuthenticated.rnctAuthenticated.smscode = smsCode)
+	  then (TheactAuthenticated.rnctAuthenticated@post.vpIsLogged = true)
+	  else false
+	  endif}
+	
+	\end{lstlisting}
+	\normalsize 
 	
 	
 	

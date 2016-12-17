@@ -20,6 +20,7 @@ The \msrcode{oeEditCoordinator} operation has the following properties:
 	\addrowheading{Pre-Condition (protocol)}
 	\addnumberedsinglerow{PreP}{the system is started}
 	\addnumberedsinglerow{PreP}{the actor logged previously and did not log out ! (i.e. the associated ctAdministrator instance is considered logged)}
+	\addnumberedsinglerow{PreP}{the coordinator with the given ID is not logged in. It means that vpIsLogged of the coordinator is false}
 		
 	\addrowheading{Pre-Condition (functional)}
 	\addnumberedsinglerow{PreF}{ it is supposed that there exist one ctCoordinator instance with the same \msrcode{id} attribute than the one the administrator wants to edit.}
