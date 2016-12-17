@@ -471,6 +471,7 @@
   <semanticResources>operations/environment/documentation/Operation-actAuthenticated-outactAuthenticated-oeSMS.msrd</semanticResources>
   <semanticResources>concepts/documentation/Operation-dtGPSLocation-getGeographicalLocation.msrd</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtGPSLocation-getGeographicalLocation.msr</semanticResources>
+  <semanticResources>usecases/documentation/UseCaseInstance-uciSimpleAndCompletePart03.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_WzMfgPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

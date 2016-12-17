@@ -58,12 +58,18 @@ package icrash.usecases.suDeployAndRun {
         bill
         executed instanceof subfunction
               oeLogin("icrashadmin","7WXC1359"){
-                ieMessage('You are logged ! Welcome ...') returned to bill
+                ieMessage('You login and password are correct. Sms code has been sent') returned to bill
               }
 //----------------------------------------------------
         bill
+         executed instanceof subfunction
+        	oeSMS("456123"){
+        		ieMessage('You are logged in ! Wellcome ...') returned to bill
+        	}
+//----------------------------------------------------
+   		bill
         executed instanceof subfunction
-              oeAddCoordinator("1","steve","pwdMessirExcalibur2017"){
+              oeAddCoordinator("1","steve","pwdMessirExcalibur2017","8933123434","southWestern","high"){
                 ieCoordinatorAddedreturned returned to bill
               }
 //----------------------------------------------------
@@ -80,7 +86,7 @@ package icrash.usecases.suDeployAndRun {
         tango
         executed instanceof subfunction 
               oeAlert("witness","2017:11:26","10:10:16","+3524666445252",
-                      "49.627675:6.159590","3 cars involved in an accident."){
+                      "49.627675:6.159590","3 cars involved in an accident.","high"){
                  ieSmsSend("+3524666445252","Your alert has been registered. We will handle it and keep you informed") returned to tango
               }
 //----------------------------------------------------
@@ -100,8 +106,14 @@ package icrash.usecases.suDeployAndRun {
         steve
         executed instanceof subfunction
               oeLogin("steve","pwdMessirExcalibur2017"){
-                ieMessage('You are logged ! Welcome ...') returned to steve
+                ieMessage('Your login and password are correct. Sms code has been sent') returned to steve
               }
+ //----------------------------------------------------
+        steve
+        executed instanceof subfunction
+        	oeSMS("241312"){
+        		ieMessage('Your are logged in ! Wellcome ...') returned to steve
+        	}
 //----------------------------------------------------
         steve
         executed instanceof subfunction
@@ -132,8 +144,15 @@ package icrash.usecases.suDeployAndRun {
         tango
         executed instanceof subfunction 
               oeAlert("witness","2017:11:26","10:20:00","+3524666445000",
-                      "49.627095:6.160251","A car crash just happened."){
+                      "49.627095:6.160251","A car crash just happened.", "medium"){
                  ieSmsSend("+3524666445000","Your alert has been registered. We will handle it and keep you informed") returned to tango
+              }
+//----------------------------------------------------
+        tango
+        executed instanceof subfunction 
+              oeAlert("witness","2017:11:26","10:20:00","+3524666445112",
+                      "69.33143:65.160251","A car hit 2 pedestrians.", "high"){
+                 ieSmsSend("+3524666445112","Your alert has been registered. We will handle it and keep you informed") returned to tango
               }
 //----------------------------------------------------
         theClock
@@ -160,6 +179,11 @@ package icrash.usecases.suDeployAndRun {
                 ieMessage('The crisis is now closed !')
                 returned to steve
               }
+         steve
+        executed instanceof subfunction
+              oeGetCrisisSet("pending"){
+                //ieSendACrisis("crisis with ID 1 details") returned to steve
+              } 
 
       }
     }
@@ -186,14 +210,20 @@ package icrash.usecases.suDeployAndRun {
               oeSetClock("2017:11:24 - 03:20:00"){}
 //----------------------------------------------------
         bill
-        executed instanceof subfunction
+         executed instanceof subfunction
               oeLogin("icrashadmin","7WXC1359"){
-                ieMessage('You are logged ! Welcome ...') returned to bill
+                ieMessage('You login and password are correct. Sms code has been sent') returned to bill
               }
 //----------------------------------------------------
         bill
+         executed instanceof subfunction
+        	oeSMS("456123"){
+        		ieMessage('You are logged in ! Wellcome ...') returned to bill
+        	}
+//----------------------------------------------------
+        bill
         executed instanceof subfunction
-              oeAddCoordinator("1","steve","pwdMessirExcalibur2017"){
+              oeAddCoordinator("1","steve","pwdMessirExcalibur2017","8933123434","southWestern","high"){
                 ieCoordinatorAddedreturned returned to bill
               }
 //----------------------------------------------------
@@ -210,7 +240,7 @@ package icrash.usecases.suDeployAndRun {
         tango
         executed instanceof subfunction 
               oeAlert("witness","2017:11:26","10:10:16","+3524666445252",
-                      "49.627675:6.159590","3 cars involved in an accident."){
+                      "49.627675:6.159590","3 cars involved in an accident.","high"){
                  ieSmsSend("+3524666445252","Your alert has been registered. We will handle it and keep you informed") returned to tango
               }
 //----------------------------------------------------
@@ -244,10 +274,16 @@ package icrash.usecases.suDeployAndRun {
 
 //----------------------------------------------------
         steve
-        executed instanceof subfunction
+       executed instanceof subfunction
               oeLogin("steve","pwdMessirExcalibur2017"){
-                ieMessage('You are logged ! Welcome ...') returned to steve
+                ieMessage('Your login and password are correct. Sms code has been sent') returned to steve
               }
+ //----------------------------------------------------
+        steve
+        executed instanceof subfunction
+        	oeSMS("241312"){
+        		ieMessage('Your are logged in ! Wellcome ...') returned to steve
+        	}
 //----------------------------------------------------
         steve
         executed instanceof subfunction
@@ -278,8 +314,16 @@ package icrash.usecases.suDeployAndRun {
         tango
         executed instanceof subfunction 
               oeAlert("witness","2017:11:26","10:20:00","+3524666445000",
-                      "49.627095:6.160251","A car crash just happened."){
+                      "49.627095:6.160251","A car crash just happened.","medium"){
                  ieSmsSend("+3524666445000","Your alert has been registered. We will handle it and keep you informed") returned to tango
+              }
+              
+//----------------------------------------------------
+        tango
+        executed instanceof subfunction 
+              oeAlert("witness","2017:11:26","10:20:00","+3524666445112",
+                      "69.33143:65.160251","A car hit 2 pedestrians.", "high"){
+                 ieSmsSend("+3524666445112","Your alert has been registered. We will handle it and keep you informed") returned to tango
               }
 //----------------------------------------------------
         theClock
@@ -306,7 +350,34 @@ package icrash.usecases.suDeployAndRun {
                 ieMessage('The crisis is now closed !')
                 returned to steve
               }
+        steve
+        executed instanceof subfunction
+              oeGetCrisisSet("pending"){
+                //ieSendACrisis("crisis with ID 1 details") returned to steve
+              } 
+         
 
+      }
+    }
+   use case instance uciSimpleAndCompletePart03 : suDeployAndRun{
+      actors {
+        theCreator : actMsrCreator
+        theClock : actActivator
+        bill : actAdministrator
+        tango : actComCompany
+        steve : actCoordinator
+      }
+      use case steps {
+
+
+//----------------------------------------------------
+        steve
+       executed instanceof subfunction
+              oeLogin("steve","pwdMessirExcalibur2017"){
+                ieMessage('Your login and password are correct. Sms code has been sent') returned to steve
+              }
+
+        
       }
     }
   }

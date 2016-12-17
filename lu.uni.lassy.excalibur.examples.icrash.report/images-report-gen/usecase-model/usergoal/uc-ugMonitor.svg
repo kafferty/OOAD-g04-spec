@@ -48,22 +48,22 @@
         <path d="M-1 -1 L537 -1 L537 350 L-1 350 L-1 -1 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-        <path d="M59 109 L164 109 L164 133 L59 133 L59 109 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-        <path d="M182 103 L236 103 L236 127 L182 127 L182 103 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
-        <path d="M180 97 L192 97 L192 109 L180 109 L180 97 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
         <path d="M56 226 L161 226 L161 250 L56 250 L56 226 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
         <path d="M163 235 L217 235 L217 259 L163 259 L163 235 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
         <path d="M163 253 L174 253 L174 266 L163 266 L163 253 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
+        <path d="M59 109 L164 109 L164 133 L59 133 L59 109 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+        <path d="M182 103 L236 103 L236 127 L182 127 L182 103 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
+        <path d="M180 97 L192 97 L192 109 L180 109 L180 97 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
         <path d="M295 147 L423 147 L423 193 L295 193 L295 147 Z" />
@@ -97,26 +97,26 @@
       <text x="385" font-size="19" y="261" clip-path="url(#clipPath12)" stroke="none" xml:space="preserve">actCoordinator</text>
     </g>
     <g stroke-linecap="butt" font-size="13" fill="rgb(209,209,209)" font-family="'Lucida Sans'" stroke="rgb(209,209,209)" stroke-width="2.1">
-      <line clip-path="url(#clipPath13)" fill="none" x1="117" x2="189" y1="159" y2="99" />
-      <text x="60" font-size="19" y="129" clip-path="url(#clipPath14)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
-      <text x="183" font-size="19" y="123" clip-path="url(#clipPath15)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
-      <line clip-path="url(#clipPath16)" fill="none" x1="186" x2="189" y1="106" y2="99" />
-      <line clip-path="url(#clipPath16)" fill="none" x1="189" x2="182" y1="99" y2="101" />
       <line clip-path="url(#clipPath13)" fill="none" x1="142" x2="171" y1="209" y2="263" />
-      <text x="57" font-size="19" y="246" clip-path="url(#clipPath17)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
-      <text x="164" font-size="19" y="255" clip-path="url(#clipPath18)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
-      <line clip-path="url(#clipPath19)" fill="none" x1="165" x2="171" y1="258" y2="263" />
-      <line clip-path="url(#clipPath19)" fill="none" x1="171" x2="170" y1="263" y2="255" />
+      <text x="57" font-size="19" y="246" clip-path="url(#clipPath14)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
+      <text x="164" font-size="19" y="255" clip-path="url(#clipPath15)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
+      <line clip-path="url(#clipPath16)" fill="none" x1="165" x2="171" y1="258" y2="263" />
+      <line clip-path="url(#clipPath16)" fill="none" x1="171" x2="170" y1="263" y2="255" />
       <line clip-path="url(#clipPath13)" fill="none" x1="117" x2="189" y1="159" y2="99" />
-      <text x="60" font-size="19" y="129" clip-path="url(#clipPath14)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
-      <text x="183" font-size="19" y="123" clip-path="url(#clipPath15)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
-      <line clip-path="url(#clipPath16)" fill="none" x1="186" x2="189" y1="106" y2="99" />
-      <line clip-path="url(#clipPath16)" fill="none" x1="189" x2="182" y1="99" y2="101" />
+      <text x="60" font-size="19" y="129" clip-path="url(#clipPath17)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
+      <text x="183" font-size="19" y="123" clip-path="url(#clipPath18)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
+      <line clip-path="url(#clipPath19)" fill="none" x1="186" x2="189" y1="106" y2="99" />
+      <line clip-path="url(#clipPath19)" fill="none" x1="189" x2="182" y1="99" y2="101" />
+      <line clip-path="url(#clipPath13)" fill="none" x1="117" x2="189" y1="159" y2="99" />
+      <text x="60" font-size="19" y="129" clip-path="url(#clipPath17)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
+      <text x="183" font-size="19" y="123" clip-path="url(#clipPath18)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
+      <line clip-path="url(#clipPath19)" fill="none" x1="186" x2="189" y1="106" y2="99" />
+      <line clip-path="url(#clipPath19)" fill="none" x1="189" x2="182" y1="99" y2="101" />
       <line clip-path="url(#clipPath13)" fill="none" x1="142" x2="171" y1="209" y2="263" />
-      <text x="57" font-size="19" y="246" clip-path="url(#clipPath17)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
-      <text x="164" font-size="19" y="255" clip-path="url(#clipPath18)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
-      <line clip-path="url(#clipPath19)" fill="none" x1="165" x2="171" y1="258" y2="263" />
-      <line clip-path="url(#clipPath19)" fill="none" x1="171" x2="170" y1="263" y2="255" />
+      <text x="57" font-size="19" y="246" clip-path="url(#clipPath14)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;reuse&gt;&gt;</text>
+      <text x="164" font-size="19" y="255" clip-path="url(#clipPath15)" fill="black" stroke="none" xml:space="preserve">[0..*]</text>
+      <line clip-path="url(#clipPath16)" fill="none" x1="165" x2="171" y1="258" y2="263" />
+      <line clip-path="url(#clipPath16)" fill="none" x1="171" x2="170" y1="263" y2="255" />
       <line clip-path="url(#clipPath13)" fill="none" x1="192" x2="453" y1="187" y2="197" />
       <text x="296" font-size="19" y="167" clip-path="url(#clipPath20)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;primary&gt;&gt;</text>
       <text x="305" font-size="19" y="189" clip-path="url(#clipPath20)" fill="black" stroke="none" xml:space="preserve">&lt;&lt;active&gt;&gt;</text>
