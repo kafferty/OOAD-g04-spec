@@ -151,7 +151,7 @@ package icrash.usecases.suDeployAndRun {
         tango
         executed instanceof subfunction 
               oeAlert("witness","2017:11:26","10:20:00","+3524666445112",
-                      "69.33143:65.160251","A car hit 2 pedestrians.", "high"){
+                      "69.33143:65.160251","A car hit 2 pedestrians.", "low"){
                  ieSmsSend("+3524666445112","Your alert has been registered. We will handle it and keep you informed") returned to tango
               }
 //----------------------------------------------------
@@ -215,7 +215,7 @@ package icrash.usecases.suDeployAndRun {
                 ieMessage('You login and password are correct. Sms code has been sent') returned to bill
               }
 //----------------------------------------------------
-        bill
+        bill 
          executed instanceof subfunction
         	oeSMS("456123"){
         		ieMessage('You are logged in ! Wellcome ...') returned to bill
@@ -322,7 +322,7 @@ package icrash.usecases.suDeployAndRun {
         tango
         executed instanceof subfunction 
               oeAlert("witness","2017:11:26","10:20:00","+3524666445112",
-                      "69.33143:65.160251","A car hit 2 pedestrians.", "high"){
+                      "69.33143:65.160251","A car hit 2 pedestrians.", "low"){
                  ieSmsSend("+3524666445112","Your alert has been registered. We will handle it and keep you informed") returned to tango
               }
 //----------------------------------------------------
@@ -336,7 +336,7 @@ package icrash.usecases.suDeployAndRun {
                 ieMessage('The crisis status has been updated !')
                 returned to steve
               }
-//----------------------------------------------------
+           //----------------------------------------------------
         steve
         executed instanceof subfunction
               oeReportOnCrisis("1","3 victims sent to hospital, 2 cars evacuated and 4 rescue unit mobilized"){
@@ -344,7 +344,7 @@ package icrash.usecases.suDeployAndRun {
                 returned to steve
               }
 //----------------------------------------------------
-        steve
+        steve 
         executed instanceof subfunction
               oeCloseCrisis("1"){
                 ieMessage('The crisis is now closed !')
@@ -355,7 +355,7 @@ package icrash.usecases.suDeployAndRun {
               oeGetCrisisSet("pending"){
                 //ieSendACrisis("crisis with ID 1 details") returned to steve
               } 
-         
+  
 
       }
     }
